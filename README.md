@@ -1,15 +1,14 @@
 # Magfest-specific ubersystem production configuration
 Magfest-specific puppet configurations.
-THIS IS NOT A PUBLIC REPO, contains magfest-specific settings.
+THIS IS A PUBLIC REPO, contains magfest-specific settings.
 
-However, you should NEVER check in secret information into this repo, like Stripe / AWS API keys.  That information
-should only ever live on the MCP control server.
+However, you should NEVER check in sensitive or secret information into this repo, like Stripe / AWS API keys.  That information
+should only ever live on the control server.
 
 # Setup notes
 If you want to develop on magfest events, here are some magfest-specific instructions.
 
-Each copy of the ubersystem-deploy repo is a collection of the deploy+code+plugins for ONE event.  If you want to develop for two events,
-you will need two copies of ubersystem-deploy, one for magprime, and one for magclassic.
+Each copy of the ubersystem-deploy repo is a collection of the deploy+code+plugins for ONE event.  If you want to develop for two events, you will need two copies of ubersystem-deploy, one for magprime, and one for magclassic.
 
 Follow the instructions below for EACH event:
 
