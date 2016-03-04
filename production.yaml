@@ -1,0 +1,3 @@
+# production-specific overrides
+---
+placeholder_only: "Just a placeholder needed to make puppet happy, when real content is added, feel free to remove it."

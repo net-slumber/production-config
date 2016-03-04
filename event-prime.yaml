@@ -1,0 +1,347 @@
+---
+classes:
+- roles::uber_server
+
+# magfest prime event-specific settings
+
+uber::plugins::extra_plugins:
+  magprime:
+    git_repo: 'https://github.com/magfest/magprime'
+    git_branch: 'master'
+  hotel:
+    git_repo: 'https://github.com/magfest/hotel'
+    git_branch: 'master'
+  panels:
+    git_repo: 'https://github.com/magfest/panels'
+    git_branch: 'master'
+  mivs:
+    git_repo: 'https://github.com/magfest/mivs'
+    git_branch: 'master'
+  attendee_tournaments:
+    git_repo: 'https://github.com/magfest/attendee_tournaments'
+    git_branch: 'master'
+  bands:
+    git_repo: 'https://github.com/magfest/bands'
+    git_branch: 'master'
+  tabletop:
+    git_repo: 'https://github.com/magfest/tabletop'
+    git_branch: 'master'
+
+uber::config::priority_plugins: "uber, panels"
+
+uber::config::hotel_req_hour: 30
+uber::config::room_deadline: '2016-01-05'
+
+uber::config::groups_enabled: True
+uber::config::kiosk_cc_enabled: True
+
+uber::config::event_name: 'MAGFest'
+uber::config::year: 2016
+
+uber::config::peglegs_sig: |
+    - Tom Hyre,
+    MAGFest Director of Panel Operations
+
+uber::config::epoch: '2016-02-18 08'
+uber::config::eschaton: '2016-02-21 18'
+
+uber::config::prereg_open: '2015-09-01 17'
+uber::config::prereg_takedown: '2016-02-16'
+uber::config::group_prereg_takedown: '2016-02-16'
+uber::config::uber_takedown: '2016-02-17'
+
+uber::config::placeholder_deadline: '2016-02-12'
+uber::config::supporter_deadline: '2016-01-13'
+uber::config::shirt_deadline: '2016-02-12'
+uber::config::printed_badge_deadline: '2016-01-20'
+
+uber::config::shifts_created: '2015-11-26'
+
+uber::config::dealer_reg_start: '2015-07-31 19'       # dealer reg not allowed before this date
+uber::config::dealer_reg_deadline: '2015-08-02 03'    # after this date, applications are auto-waitlisted
+uber::config::dealer_reg_shutdown: '2015-08-04'       # after this date, no new applications allowed
+uber::config::dealer_payment_due: '2016-01-02'        # dealers must pay by this date
+
+uber::config::max_badge_sales: 20000
+
+uber::config::hide_schedule: 'False'
+uber::config::at_the_con: 'False'
+uber::config::post_con: 'True'
+
+uber::config::donation_tier:
+    - "'No thanks'      = 0"
+    - "'Ribbon'         = 5"
+    - "'Button'         = 10"
+    - "'Shirt'          = SHIRT_LEVEL"
+    - "'Guitar Keychain' = 40"
+    - "'Supporter Package' = SUPPORTER_LEVEL"
+    - "'Battery Pack'   = 100"
+    - "'Season Pass'    = SEASON_LEVEL"
+    - "'Canvas Art Print' = 250"
+    - "'Decorative Air Guitar' = 500"
+
+uber::config::badge_enums:
+        attendee_badge:         "Attendee"
+        supporter_badge:        "Supporter"
+        staff_badge:            "Staff"
+        guest_badge:            "Guest"
+        one_day_badge:          "One Day"
+
+uber::config::badge_stocks:
+    friday: 1300
+    saturday: 1500
+    sunday: 700
+
+# prereg form UI options
+uber::config::donations_enabled: true
+
+uber::config::badge_types:
+  staff_badge:
+    range_start: 152
+    range_end: 999
+  supporter_badge:
+    range_start: 1000
+    range_end: 1999
+  guest_badge:
+    range_start: 2000
+    range_end: 2999
+  attendee_badge:
+    range_start: 3000
+    range_end: 29999
+  one_day_badge:
+    range_start: 30000
+    range_end: 39999
+
+uber::config::initial_attendee: 50    # badge price
+uber::config::dealer_badge_price: 30
+uber::config::max_dealers: 20
+uber::config::default_table_price: 350
+
+uber::config::table_prices:
+  1: 125
+  2: 175
+  3: 250
+  4: 350
+
+uber::config::badge_prices:
+  single_day:
+    - { 'Thursday': 40 }
+    - { 'Friday': 45 }
+    - { 'Saturday': 45 }
+    - { 'Sunday': 25 }
+
+  attendee:
+    - { '2015-09-01': 50 }
+    - { '2015-10-01': 55 }
+    - { '2015-11-01': 60 }
+    - { '2015-12-01': 65 }
+    - { '2016-01-01': 70 }
+    - { '2016-02-01': 75 }
+    - { '2016-02-17': 80 }
+
+uber::config::shift_custom_badges: false
+
+uber::config::job_interests:
+  anything: "Anything"
+  arcade: "Arcade"
+  challenges: "Challenges Booth"
+  charity: "Charity"
+  chipspace: "Chipspace"
+  console: "Consoles"
+  film_fest: "Film Festival"
+  indie_games: "Indie Showcase"
+  shedspace: "Jam Clinic"
+  jamspace: "Jam Space"
+  lan: "LAN"
+  lanlounge: "LAN Events"
+  larp: "LARP"
+  panels: "Panels"
+  regdesk: "Regdesk"
+  security: "Security"
+  food_prep: "Staff Suite"
+  staff_support: "Staff Support"
+  tabletop: "Tabletop"
+  tech_ops: "Tech Ops"
+  tea_room: "Tea Room"
+  
+
+uber::config::job_locations:
+  console: "Consoles"
+  arcade: "Arcade"
+  attendee_service: "Attendee Services"
+  lanlounge: "LAN Events"
+  artemis: "Artemis"
+  challenges: "Challenges"
+  charity: "Charity"
+  chipspace: "Chipspace"
+  concert: "Concert"
+  concertsecurity: "Concert Security"
+  contractors: "Public Safety"
+  con_ops: "Fest Ops"
+  dispatch: "Dispatch"
+  dorsai: "Dorsai"
+  panels: "Events"
+  food_prep: "Staff Suite"
+  film_fest: "Games on Film"
+  indie_games: "Indie Games"
+  jamspace: "Jam Space"
+  lan: "LAN"
+  larp: "LARP"
+  loadin: "Logistics"
+  loudr: "Rock Island"
+  mages: "MAGES"
+  marketplace: "Marketplace"
+  merch: "Merchandise"
+  mops: "MEDIATRON!"
+  nga: "Nexus Gaming Alliance"
+  regdesk: "Regdesk"
+  reg_managers: "Reg Managers"
+  rescuers: "Rescuers"
+  security: "Security"
+  shedspace: "Jam Clinic"
+  staff_support: "Staff Support"
+  starship_horizons: "Starship Horizons"
+  stops: "Staffing Ops"
+  tabletop: "Tabletop"
+  treasury: "Treasury"
+  ccg_tabletop: "Tabletop (CCG)"
+  tech_ops: "Tech Ops"
+  tea_room: "Tea Room"
+  zombie_tag: "Zombie Tag"
+
+uber::config::shiftless_depts: "dorsai,marketplace,nga,starship_horizons,artemis"
+
+uber::config::shirt_level: 20
+uber::config::supporter_level: 80
+uber::config::season_level: 160
+
+uber::config::shirt_sizes:
+  - "'No Shirt'      = 0"
+  - "'S Unisex'            = 1"
+  - "'M Unisex'           = 2"
+  - "'L Unisex'            = 3"
+  - "'XL Unisex'          = 4"
+  - "'2XL Unisex'         = 5"
+  - "'3XL Unisex'        = 6"
+  - "'4XL Unisex'       = 11"
+  - "'5XL Unisex'      = 12"
+  - "'S Unisex slim fit' = 14"
+  - "'M Unisex slim fit' = 15"
+  - "'L Unisex slim fit' = 16"
+  - "'XL Unisex slim fit' = 17"
+  - "'2XL Unisex slim fit' = 18"
+  - "'S Women\'s'   = 7"
+  - "'M Women\'s'  = 8"
+  - "'L Women\'s'   = 9"
+  - "'XL Women\'s' = 10"
+  - "'2XL Women\'s' = 13"
+  - "'S Women\'s slim fit' = 19"
+  - "'M Women\'s slim fit' = 20"
+  - "'L Women\'s slim fit' = 21"
+  - "'XL Women\'s slim fit' = 22"
+  - "'2XL Women\'s slim fit' = 23"
+
+uber::config::interest_list:
+  console: "Consoles"
+  arcade: "Arcade"
+  lan: "LAN"
+  music: "Music"
+  panels: "Guests/Panels"
+  tabletop: "Tabletop games"
+  dealers: "Dealers"
+  tournaments: "Tournaments"
+
+uber::config::event_locations:
+  panels_1: "Panels 1 (Woodrow Wilson Ballroom)"
+  panels_2: "Panels 2 (Cherry Blossom Ballroom)"
+  panels_3: "Panels 3 (Maryland A)"
+  panels_4: "Panels 4 (Chesapeake D,E,F)"
+  mages_1: "MAGES 1 (Chesapeake G,H,I)"
+  mages_2: "MAGES 2 (Chesapeake 7,8,9)"
+  forum: "Forum (Chesapeake J,K,L)"
+  autographs: "Autographs A (Expo Hall E)"
+  autographs_1: "Autographs 1 (Expo Hall E)"
+  film_fest: "Games on Film (Maryland C)"
+  console_stage: "Arena (Chesapeake 4,5,6)"
+  starship_horizons: "Starship Horizons (Baltimore 1&2)"
+  console_nga: "Console (NGA Tournaments)"
+  console_attendee: "Console (Attendee Tournaments)"
+  arcade_tournaments_1: "Arcade (Tournaments 1)"
+  arcade_tournaments_2: "Arcade (Tournaments 2)"
+  arcade_tournaments_3: "Arcade (Tournaments 3)"
+  arcade_tournaments_4: "Arcade (Pinball)"
+  lan_1: "LAN 1"
+  lan_2: "LAN 2"
+  lan_3: "LAN 3"
+  lan_theater: "Lan Theater"
+  larp: "LARP (Magnolia 1)"
+  tabletop_tournaments: "Tabletop (Tournaments)"
+  tabletop_ccg: "Tabletop (CCG)"
+  pathfinder: "Pathfinder (Magnolia 3)"
+  concerts: "Concerts (Potomac Ballrooms)"
+  chiptunes: "Chipspace (Potomac Hallway)"
+  magolympics: "Grand Championship"
+  zombie_tag: "Zombie Tag (Magnolia 2)"
+  
+uber::config::volunteer_checklist:
+  4: 'hotel_requests/hotel_item.html'
+  5: 'signups/shifts_item.html'
+
+uber::config::dept_head_overrides:
+  - 'challenges = "Orvie Thumel / Daniel Hill / Bunny Smith / Michael Ridgaway"'
+
+uber::config::dept_head_checklist:
+  creating_shifts:
+    deadline: "2015-11-17"
+    description: "STOPS is happy to assist you in creating shifts. Since the days of the week are different than M13, we recomend only using M13 as a simple guideline.  Please let us know if you need assistance with this step."
+    path: "/jobs/index?location={department}"
+  assigned_volunteers:
+    name: "Volunteers Assigned to Your Department"
+    deadline: "2015-12-01"
+    description: "Check all of the volunteers currently assigned to your department to make sure no one is missing AND that no one is there who shouldn't be."
+    path: "/jobs/staffers?location={department}"
+  treasury:
+    name: "MPoint Needs"
+    deadline: "2015-12-15"
+    description: "Tell us whether you need any mpoints for your department."
+    path: "/magprime_dept_checklist/treasury"
+  allotments:
+    name: "Treasury Information"
+    deadline: "2015-12-15"
+    description: "If you need cash and/or mpoints, tell us your department schedule and your specific cash needs."
+    path: "/magprime_dept_checklist/allotments"
+  approve_setup_teardown:
+    name: "Approve/Decline Requests to Help With Setup/Teardown"
+    deadline: "2015-12-22"
+    description: "An overwhelming majority of staffers want to work setup and teardown shifts rather than work during the event itself, so we have far more offers than we have need for.  Since this affects what hotel nights staffers get, please approve and decline requests for this for people in your department."
+    path: "/hotel/requests?department={department}"
+  hotel_eligible:
+    name: "Staffers Requesting Hotel Space"
+    deadline: "2015-12-29"
+    description: "Double check that everyone in your department who you know needs hotel space has requested it."
+    path: "/hotel/index?department={department}"
+  printed_signs:
+    deadline: "2016-01-05"
+    description: "Other than a sign for your area, what printed signs/banners/forms do you need?"
+  office_supplies:
+    deadline: "2016-01-05"
+    description: "Do you need any paper, pens, sharpies, tripods, whiteboards, scissors, staplers, etc?"
+  custom_ribbons:
+    deadline: "2016-01-05"
+    description: "Besides the ribbons given out at registration, you may need your own ribbon type to help manage access to certain restricted areas. If so, please let us know what they should say, how many you'll need, and what color you'd like them to be. These ribbons will be given to you at the beginning of MAGFest to distribute to whoever needs them.  (Note: Small orders of ribbons are very expensive - please request a ribbon type only if you need it, and tell us why you need it so we can make sure there's no duplication between departments.)"
+  placeholders:
+    name: "Checking Placeholder Registrations"
+    deadline: "2015-12-22"
+    description: "We create placeholder registrations for volunteers and ask them to fill out the rest of their information and also confirm that they'll be coming.  We need our department heads to review the unclaimed badges for their departments to check for any essential volunteers who haven't claimed their badges."
+    path: "/registration/placeholders?department={department}"
+  tech_requirements:
+    name: "Tech Requirements"
+    deadline: "2015-12-29"
+    description: "What do you need in terms of laptops, projectors, cables, internet access, etc?"
+    path: "/magprime_dept_checklist/tech_requirements"
+  postcon_hours:
+    name: "(After the Event) Marking and Rating Shifts"
+    deadline: "2016-03-01"
+    description: "After the weekend is over, we'll want all department heads to ensure that their volunteers had their shifts marked and rated."
+    path: "/jobs/signups?location=59983785"
+

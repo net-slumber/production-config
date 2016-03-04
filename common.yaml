@@ -1,0 +1,52 @@
+---
+
+uber::nginx::ssl_crt_bundle:  'puppet:///modules/uber/magfest.org.new.crt-bundle'
+uber::nginx::ssl_crt_key:     'puppet:///modules/uber/magfest.org.new.key'
+
+# event settings
+uber::config::organization_name:  'MAGFest INC'
+uber::config::event_name:         'TestFest'
+uber::config::year:               9000
+uber::config::code_of_conduct: "http://magfest.org/codeofconduct"
+
+uber::config::regdesk_email: 'MAGFest Registration <regsupport@magfest.org>'
+uber::config::stops_sig: "Thank You,\nStaff Operations: MAGFest Inc.\nhttp://www.magfest.org"
+uber::config::collect_exact_birthdate: 'True'
+uber::config::event_timezone: "US/Eastern"
+uber::config::contact_url: 'http://magfest.org/contact'
+uber::config::consent_form_url: 'http://magfest.org/minorconsentform'
+
+uber::config::shirt_sizes:
+  - "'no shirt'      = 0"
+  - "'small'            = 1"
+  - "'medium'           = 2"
+  - "'large'            = 3"
+  - "'x-large'          = 4"
+  - "'xx-large'         = 5"
+  - "'xxx-large'        = 6"
+  - "'xxxx-large'       = 11"
+  - "'xxxxx-large'      = 12"
+  - "'small (female)'   = 7"
+  - "'medium (female)'  = 8"
+  - "'large (female)'   = 9"
+  - "'x-large (female)' = 10"
+  - "'xx-large (female)' = 13"
+
+uber::config::extra_ribbon_types:
+  band: "RockStar"
+
+uber::config::sandwich:
+    turkey: "Turkey"
+    ham: "Ham"
+    cheese: "Cheese"
+    peanut_butter: "Peanut Butter"
+    jelly: "Jelly"
+    salad: "Prefer salad instead of sandwich"
+
+uber::config::food_restriction:
+    gluten: "No gluten"
+    dairy: "No dairy"
+    pork: "No pork"
+    eggs: "No eggs"
+    nuts: "No nuts"
+    red_meat: "No red meat"

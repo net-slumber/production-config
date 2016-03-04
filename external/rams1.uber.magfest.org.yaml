@@ -1,0 +1,6 @@
+---
+# uber::config::at_the_con: 'False'
+# uber::config::post_con: 'True'
+
+# set this so that onsite emails from the onsite server have the correct base URL
+uber::config::url_base: 'https://prime.uber.magfest.org/uber'

@@ -1,0 +1,4 @@
+# development-specific overrides
+---
+# all magfest development boxes use these keys (i.e. staging servers)
+uber::nginx::ssl_ca_crt:     "puppet:///modules/uber/magdev-ca.crt"

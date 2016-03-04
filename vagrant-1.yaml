@@ -1,0 +1,13 @@
+# magfest-specific
+# vagrant settings for all magfest events
+---
+uber::nginx::ssl_crt_bundle:      'puppet:///modules/uber/selfsigned-testonly.crt'
+uber::nginx::ssl_crt_key:         'puppet:///modules/uber/selfsigned-testonly.key'
+
+# selfsigned-X are for *LOCAL* DEVELOPMENT only, never use these on any kind of public server
+uber::nginx::ssl_ca_crt:     "puppet:///modules/uber/selfsigned-X-ca.crt"
+
+# test barcode values stuff. NEVER USE FOR PRODUCTION, ALWAYS CHANGE
+uber::plugin_barcode::barcode_key: "TEST-ONLY!"
+uber::plugin_barcode::barcode_salt: 255
+uber::plugin_barcode::barcode_event_id: 255

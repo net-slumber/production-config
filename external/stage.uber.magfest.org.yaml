@@ -1,0 +1,5 @@
+---
+
+# force stage1 to be in at the con mode for testing
+# uber::config::at_the_con: 'True'
+# uber::config::post_con: 'False'
