@@ -9,6 +9,10 @@ uber::plugins::extra_plugins:
   bands:
     git_repo: 'https://github.com/magfest/bands'
     git_branch: 'master'
+  # required by bands plugin
+  panels:
+    git_repo: 'https://github.com/magfest/panels'
+    git_branch: 'master'
 
 uber::config::numbered_badges: 'False'
 
