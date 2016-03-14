@@ -1,0 +1,2 @@
+---
+uber::config::prereg_open: '1999-09-09'  # fake prereg open early on dev boxes
