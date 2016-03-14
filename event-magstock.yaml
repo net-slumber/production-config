@@ -6,13 +6,14 @@ uber::plugins::extra_plugins:
   magstock:
     git_repo: 'https://github.com/magfest/magstock'
     git_branch: 'master'
-  bands:
-    git_repo: 'https://github.com/magfest/bands'
-    git_branch: 'master'
+  # magstock wants these but they need some config work. TODO
+  #bands:
+  #  git_repo: 'https://github.com/magfest/bands'
+  #  git_branch: 'master'
   # required by bands plugin
-  panels:
-    git_repo: 'https://github.com/magfest/panels'
-    git_branch: 'master'
+  #panels:
+  #  git_repo: 'https://github.com/magfest/panels'
+  #  git_branch: 'master'
 
 uber::config::numbered_badges: 'False'
 
