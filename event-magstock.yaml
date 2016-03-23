@@ -79,7 +79,6 @@ uber::config::badge_prices:
     - { 'Friday': 35 }
     - { 'Saturday': 40 }
     - { 'Sunday': 40 }
-    - { 'Monday': 30 }
   attendee:
     - { '2016-06-16': 65 }
 
