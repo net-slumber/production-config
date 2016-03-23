@@ -144,3 +144,17 @@ uber::config::interest_list:
   video_games:  'Video Games'
   moonbounce:   'Moonbounce'
   activities:   'Activities'
+
+uber::config::volunteer_checklist:
+  4: 'signups/shifts_item.html'
+
+uber::config::dept_head_checklist:
+  creating_shifts:
+    deadline: "2016-04-12"
+    description: "STOPS is happy to assist you in creating shifts. Since the days of the week are different than M13, we recomend only using M13 as a simple guideline.  Please let us know if you need assistance with this step."
+    path: "/jobs/index?location={department}"
+  assigned_volunteers:
+    name: "Volunteers Assigned to Your Department"
+    deadline: "2015-05-01"
+    description: "Check all of the volunteers currently assigned to your department to make sure no one is missing AND that no one is there who shouldn't be."
+    path: "/jobs/staffers?location={department}"
