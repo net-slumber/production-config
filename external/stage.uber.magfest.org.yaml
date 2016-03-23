@@ -1,5 +1,7 @@
 ---
 
-# force stage1 to be in at the con mode for testing
-# uber::config::at_the_con: 'True'
-# uber::config::post_con: 'False'
+# open prereg early on this particular server
+# so we can test before prereg really opens
+# uber::config::prereg_open: '2015-08-13'
+
+test_only_ignore_this: True
