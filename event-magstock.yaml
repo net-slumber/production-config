@@ -151,7 +151,7 @@ uber::config::volunteer_checklist:
 uber::config::dept_head_checklist:
   creating_shifts:
     deadline: "2016-04-12"
-    description: "STOPS is happy to assist you in creating shifts. Since the days of the week are different than M13, we recomend only using M13 as a simple guideline.  Please let us know if you need assistance with this step."
+    description: "The managment team is happy to assist you in creating shifts. Please let us know if you need assistance with this step."
     path: "/jobs/index?location={department}"
   assigned_volunteers:
     name: "Volunteers Assigned to Your Department"
