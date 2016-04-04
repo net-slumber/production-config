@@ -47,7 +47,6 @@ uber::config::donation_tier:
 
 uber::config::badge_enums:
         attendee_badge:         "Attendee"
-        supporter_badge:        "Supporter"
         staff_badge:            "Staff"
         guest_badge:            "Guest"
        # one_day_badge:          "One Day"
@@ -99,7 +98,7 @@ uber::config::noise_levels:
   conversational: "I can sleep when people talk"
   normal:  "I can sleep through reasonable levels of noise"
   noisy:   "While others sleep, I PARTY!"
-  WUAAAGAGGAAA: "I can't get enough WUAAAGAAAHHH in my life"
+  WUAAAGAAAAHHH: "I can't get enough WUAAAGAAAHHH in my life"
 
 uber::config::shirt_colors:
   no_shirt:     "No shirt"
@@ -127,7 +126,6 @@ uber::config::food_stock: 120
 uber::config::food_price: 20
 uber::config::shirt_level: 20
 uber::config::supporter_level: 50
-#uber::config::season_level: 160
 
 uber::config::ribbon_types:
   roughing_it: "Roughing It"
