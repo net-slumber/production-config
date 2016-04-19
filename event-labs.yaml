@@ -6,46 +6,58 @@ uber::plugins::extra_plugins:
   magclassic:
     git_repo: 'https://github.com/magfest/magclassic'
     git_branch: 'master'
-  hotel:
-    git_repo: 'https://github.com/magfest/hotel'
-    git_branch: 'master'
-  panels:
-    git_repo: 'https://github.com/magfest/panels'
-    git_branch: 'master'
+# TODO: maglabs (likely) wants these plugins, however, they may need to be updated from last year
+#  hotel:
+#    git_repo: 'https://github.com/magfest/hotel'
+#    git_branch: 'master'
+#  panels:
+#    git_repo: 'https://github.com/magfest/panels'
+#    git_branch: 'master'
+#  attendee_tournaments:
+#    git_repo: 'https://github.com/magfest/attendee_tournaments'
+#    git_branch: 'master'
+#  bands:
+#    git_repo: 'https://github.com/magfest/bands'
+#    git_branch: 'master'
+#  tabletop:
+#    git_repo: 'https://github.com/magfest/tabletop'
+#    git_branch: 'master'
+
+uber::config::priority_plugins: "uber, panels"
 
 # event settings
-uber::config::event_name: 'MAGClassic'
-uber::config::year: 2015
+uber::config::event_name: 'MAGLabs'
+uber::config::year: 2016
 
 uber::config::groups_enabled: 'True'
 
-uber::config::epoch: '2015-09-11 08'
-uber::config::eschaton: '2015-09-13 18'
+uber::config::epoch: '2016-09-09 08'
+uber::config::eschaton: '2016-09-11 18'
 
-uber::config::prereg_open: '2015-04-25'
-uber::config::prereg_takedown: '2015-09-10'
-uber::config::group_prereg_takedown: '2015-09-10'
-uber::config::uber_takedown: '2015-09-10'
+uber::config::prereg_open: '2016-05-25'
+uber::config::prereg_takedown: '2016-09-10'
+uber::config::group_prereg_takedown: '2016-09-10'
+uber::config::uber_takedown: '2016-09-10'
 
-uber::config::placeholder_deadline: '2015-09-09'
-uber::config::supporter_deadline: '2015-08-20'
-uber::config::room_deadline: '2015-08-29'
-uber::config::shirt_deadline: '2015-08-20'
-uber::config::printed_badge_deadline: '2015-08-31'
-uber::config::shifts_created: '2015-08-15'
+uber::config::placeholder_deadline: '2016-09-09'
+uber::config::supporter_deadline: '2016-08-20'
+uber::config::room_deadline: '2016-08-29'
+uber::config::shirt_deadline: '2016-08-20'
+uber::config::printed_badge_deadline: '2016-08-31'
+uber::config::shifts_created: '2016-08-15'
 
-uber::config::dealer_reg_start: '2015-07-31 19'       # dealer reg not allowed before this date
-uber::config::dealer_reg_deadline: '2015-08-02 03'    # after this date, applications are auto-waitlisted
-uber::config::dealer_reg_shutdown: '2015-08-07'       # after this date, no new applications allowed
-uber::config::dealer_payment_due: '2015-09-01'        # dealers must pay by this date
+uber::config::dealer_reg_start: '2016-07-31 19'       # dealer reg not allowed before this date
+uber::config::dealer_reg_deadline: '2016-08-02 03'    # after this date, applications are auto-waitlisted
+uber::config::dealer_reg_shutdown: '2016-08-07'       # after this date, no new applications allowed
+uber::config::dealer_payment_due: '2016-09-01'        # dealers must pay by this date
 
 uber::config::max_badge_sales: 2000
 
-uber::config::hide_schedule: 'False'
+uber::config::hide_schedule: 'True'
 
-uber::config::at_the_con: 'True'
+uber::config::at_the_con: 'False'
 
-uber::config::out_of_shirts: 'True'
+uber::config::out_of_shirts: 'False'
 
 uber::config::donation_tier:
   - "'No thanks'      = 0"
@@ -64,7 +76,7 @@ uber::config::donations_enabled: true
 
 uber::config::badge_types:
   staff_badge:
-    range_start: 1
+    range_start: 152
     range_end: 999
   supporter_badge:
     range_start: 1000
@@ -89,9 +101,9 @@ uber::config::badge_prices:
     - { 'Saturday': 35 }
     - { 'Sunday': 25 }
   attendee:
-    - { '2015-08-01': 60 }
+    - { '2016-08-01': 60 }
 
-uber::config::shift_custom_badges: false
+uber::config::shift_custom_badges: 'False'
 
 uber::config::job_interests:
   console: "Consoles"
@@ -173,52 +185,54 @@ uber::config::interest_list:
   dealers: "Dealers"
   tournaments: "Tournaments"
 
+uber::config::hotel_req_hour: 24
+
 uber::config::volunteer_checklist:
   4: 'hotel_requests/hotel_item.html'
   5: 'signups/shifts_item.html'
 
 uber::config::dept_head_checklist:
   creating_shifts:
-    deadline: "2015-08-22"
+    deadline: "2016-08-22"
     description: "STOPS is happy to assist you in creating shifts, if you aren't making any changes, we can use the shifts from M8.5.  Please let us know if you need assistance with this step or what changes you have."
     path: "/jobs/index?location={department}"
   assigned_volunteers:
     name: "Volunteers Assigned to Your Department"
-    deadline: "2015-08-22"
+    deadline: "2016-08-22"
     description: "Check all of the volunteers currently assigned to your department to make sure no one is missing AND that no one is there who shouldn't be."
     path: "/jobs/staffers?location={department}"
   hotel_eligible:
     name: "Staffers Requesting Hotel Space"
-    deadline: "2015-08-26"
+    deadline: "2016-08-26"
     description: "Double check that everyone in your department who you know needs hotel space has requested it."
     path: "/hotel/index?department={department}"
   approve_setup_teardown:
     name: "Approve/Decline Requests to Help With Setup/Teardown"
-    deadline: "2015-08-26"
+    deadline: "2016-08-26"
     description: "An overwhelming majority of staffers want to work setup and teardown shifts rather than work during the event itself, so we have far more offers than we have need for.  Since this affects what hotel nights staffers get, please approve and decline requests for this for people in your department."
     path: "/hotel/requests?department={department}"
   placeholders:
     name: "Checking Placeholder Registrations"
-    deadline: "2015-08-31"
+    deadline: "2016-08-31"
     description: "We create placeholder registrations for volunteers and ask them to fill out the rest of their information and also confirm that they'll be coming.  We need our department heads to review the unclaimed badges for their departments to check for any essential volunteers who haven't claimed their badges."
     path: "/registration/placeholders?department={department}"
   printed_signs:
-    deadline: "2015-08-31"
+    deadline: "2016-08-31"
     description: "Other than a sign for your area, what printed signs/banners/forms do you need?"
   office_supplies:
-    deadline: "2015-09-06"
+    deadline: "2016-09-06"
     description: "Do you need any paper, pens, sharpies, tripods, whiteboards, scissors, staplers, etc?"
   treasury:
     name: "Cash / MPoint Needs"
-    deadline: "2015-09-06"
+    deadline: "2016-09-06"
     description: "Tell us whether you need any cash/mpoints for your department."
     path: "/treasury/allotments"
   postcon_hours:
     name: "(After the Event) Marking and Rating Shifts"
-    deadline: "2015-09-18"
+    deadline: "2016-09-18"
     description: "After the weekend is over, we'll want all department heads to ensure that their volunteers had their shifts marked and rated."
     path: "/jobs/signups?location=59983785"
   tech_requirements:
-    deadline: "2015-09-02"
+    deadline: "2016-09-02"
     description: "What do you need in terms of laptops, projectors, cables, internet access, etc?"
     path: "/techops/tech_requirements"

@@ -1,0 +1,4 @@
+---
+# our own CA cert for use with our API
+# this is not related to normal SSL on port 443 for normal web traffic, only for our JSON-RPC API
+uber::nginx::ssl_ca_crt: "puppet:///modules/uber/magclassic-ca.crt"
