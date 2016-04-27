@@ -1,3 +1,0 @@
----
-uber::nginx::ssl_ca_crt: "puppet:///modules/uber/magclassic-ca.crt"
-uber::config::post_con: 'True'
