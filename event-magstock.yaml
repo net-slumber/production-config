@@ -26,12 +26,12 @@ uber::config::kiosk_cc_enabled: True
 uber::config::epoch: '2016-06-19 08'
 uber::config::eschaton: '2016-06-21 18'
 uber::config::prereg_open: '2016-04-29 10'
-uber::config::prereg_takedown: '2016-06-15'
-uber::config::placeholder_deadline: '2016-06-16'
-uber::config::shirt_deadline: '2016-05-30'
-uber::config::supporter_deadline: '2016-05-31'
-uber::config::printed_badge_deadline: ''
-uber::config::dealer_reg_start: ''
+uber::config::prereg_takedown: '2016-06-12'
+uber::config::placeholder_deadline: '2016-06-12'
+uber::config::shirt_deadline: '2016-05-29'
+uber::config::supporter_deadline: '2016-06-01'
+#uber::config::printed_badge_deadline: ''
+#uber::config::dealer_reg_start: ''
 uber::config::uber_takedown: '2016-06-17'
 
 uber::config::max_badge_sales: 550
