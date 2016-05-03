@@ -83,7 +83,7 @@ uber::config::job_locations:
   cat_herding: "Cat Herding"
   food: "Food"
   misc: "Standby/Misc"
-  concerts: "Concert Tent"
+  music: "Concert Tent"
   registration: "Registration"
   slip_slide: "Slip 'n Slide"
 
