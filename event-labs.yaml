@@ -4,18 +4,15 @@ classes:
 - uber::plugin_panels
 - uber::plugin_bands
 - uber::plugin_hotel
+- uber::plugin_tabletop
 
 uber::plugins::extra_plugins:
   magclassic:
     git_repo: 'https://github.com/magfest/magclassic'
     git_branch: 'master'
-# TODO: maglabs (likely) wants these plugins, however, they may need to be updated from last year
-#  attendee_tournaments:
-#    git_repo: 'https://github.com/magfest/attendee_tournaments'
-#    git_branch: 'master'
-#  tabletop:
-#    git_repo: 'https://github.com/magfest/tabletop'
-#    git_branch: 'master'
+  attendee_tournaments:
+    git_repo: 'https://github.com/magfest/attendee_tournaments'
+    git_branch: 'master'
 
 uber::config::priority_plugins: "uber, panels"
 
