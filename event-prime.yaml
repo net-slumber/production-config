@@ -1,6 +1,9 @@
 ---
 classes:
 - roles::uber_server
+- uber::plugin_panels
+- uber::plugin_bands
+- uber::plugin_hotel
 
 # magfest prime event-specific settings
 
@@ -8,20 +11,11 @@ uber::plugins::extra_plugins:
   magprime:
     git_repo: 'https://github.com/magfest/magprime'
     git_branch: 'master'
-  hotel:
-    git_repo: 'https://github.com/magfest/hotel'
-    git_branch: 'master'
-  panels:
-    git_repo: 'https://github.com/magfest/panels'
-    git_branch: 'master'
   mivs:
     git_repo: 'https://github.com/magfest/mivs'
     git_branch: 'master'
   attendee_tournaments:
     git_repo: 'https://github.com/magfest/attendee_tournaments'
-    git_branch: 'master'
-  bands:
-    git_repo: 'https://github.com/magfest/bands'
     git_branch: 'master'
   tabletop:
     git_repo: 'https://github.com/magfest/tabletop'
@@ -29,7 +23,8 @@ uber::plugins::extra_plugins:
 
 uber::config::priority_plugins: "uber, panels"
 
-uber::config::hotel_req_hour: 30
+uber::plugin_hotel::hotel_req_hours: 24
+
 uber::config::room_deadline: '2016-01-05'
 
 uber::config::groups_enabled: True
@@ -63,7 +58,8 @@ uber::config::dealer_payment_due: '2016-01-02'        # dealers must pay by this
 
 uber::config::max_badge_sales: 20000
 
-uber::config::hide_schedule: 'False'
+uber::plugin_panels::hide_schedule: 'True'
+
 uber::config::at_the_con: 'False'
 uber::config::post_con: 'True'
 
