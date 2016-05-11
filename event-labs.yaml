@@ -165,6 +165,9 @@ uber::config::event_locations:
   tabletop_ccg: "Tabletop (CCG)"
   pentathlon: "MAGOlympics Pentathlon"
 
+# entries here must also exist in event_locations
+uber::plugin_panels::panel_rooms: "panels_1,panels_2,panels_3"   # empty list
+
 uber::config::shirt_level: 20
 uber::config::supporter_level: 50
 uber::config::season_level: 160
