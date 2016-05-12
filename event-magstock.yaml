@@ -160,4 +160,7 @@ uber::plugin_panels::panel_rooms: ","   # empty list
 
 uber::plugin_panels::hide_schedule: true
 
+uber::plugin_bands::band_panel_deadline: "''"
+uber::plugin_bands::band_merch_deadline: "''"
+uber::plugin_bands::band_charity_deadline: "''"
 uber::plugin_bands::stage_agreement_deadline: "2016-06-1 22" # TODO: change to a better date
