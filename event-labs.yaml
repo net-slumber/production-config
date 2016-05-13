@@ -237,3 +237,19 @@ uber::config::dept_head_checklist:
     deadline: "2016-09-02"
     description: "What do you need in terms of laptops, projectors, cables, internet access, etc?"
     path: "/techops/tech_requirements"
+
+uber::plugin_panels::panel_rooms: "panels_1,panels_2,panels_3"   # empty list
+uber::plugin_panels::hide_schedule: true
+
+uber::plugin_bands::band_email:           'MAGStock Music Department <music@magstock.org>'
+uber::plugin_bands::band_email_signature: '- MAGStock Music Department'
+
+uber::plugin_bands::auction_start: ''             # set to a date to enable
+uber::plugin_bands::band_panel_deadline: ''       # set to a date to enable
+uber::plugin_bands::band_bio_deadline: ''         # set to a date to enable
+uber::plugin_bands::band_agreement_deadline: ''   # set to a date to enable
+uber::plugin_bands::band_w9_deadline: ''          # set to a date to enable
+uber::plugin_bands::band_merch_deadline: ''       # set to a date to enable
+uber::plugin_bands::band_charity_deadline: ''     # set to a date to enable
+uber::plugin_bands::band_badge_deadline: ''       # set to a date to enable
+uber::plugin_bands::stage_agreement_deadline: ''  # set to a date to enable
