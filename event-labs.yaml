@@ -104,7 +104,7 @@ uber::config::badge_prices:
   attendee:
     - { '2016-08-01': 60 }
 
-uber::config::shift_custom_badges: 'False'
+uber::config::shift_custom_badges: true
 
 uber::config::job_interests:
   console: "Consoles"

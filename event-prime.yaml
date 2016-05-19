@@ -138,7 +138,7 @@ uber::config::badge_prices:
     - { '2016-02-01': 75 }
     - { '2016-02-17': 80 }
 
-uber::config::shift_custom_badges: false
+uber::config::shift_custom_badges: true
 
 uber::config::job_interests:
   anything: "Anything"
