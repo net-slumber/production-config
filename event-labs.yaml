@@ -1,27 +1,18 @@
 ---
 classes:
 - roles::uber_server
+- uber::plugin_panels
+- uber::plugin_bands
+- uber::plugin_hotel
+- uber::plugin_tabletop
 
 uber::plugins::extra_plugins:
   magclassic:
     git_repo: 'https://github.com/magfest/magclassic'
     git_branch: 'master'
-# TODO: maglabs (likely) wants these plugins, however, they may need to be updated from last year
-#  hotel:
-#    git_repo: 'https://github.com/magfest/hotel'
-#    git_branch: 'master'
-#  panels:
-#    git_repo: 'https://github.com/magfest/panels'
-#    git_branch: 'master'
-#  attendee_tournaments:
-#    git_repo: 'https://github.com/magfest/attendee_tournaments'
-#    git_branch: 'master'
-#  bands:
-#    git_repo: 'https://github.com/magfest/bands'
-#    git_branch: 'master'
-#  tabletop:
-#    git_repo: 'https://github.com/magfest/tabletop'
-#    git_branch: 'master'
+  attendee_tournaments:
+    git_repo: 'https://github.com/magfest/attendee_tournaments'
+    git_branch: 'master'
 
 uber::config::priority_plugins: "uber, panels"
 
@@ -57,7 +48,7 @@ uber::config::dealer_payment_due: '2016-09-01'        # dealers must pay by this
 
 uber::config::max_badge_sales: 2000
 
-uber::config::hide_schedule: 'True'
+uber::plugin_panels::hide_schedule: 'True'
 
 uber::config::at_the_con: 'False'
 
@@ -175,6 +166,9 @@ uber::config::event_locations:
   tabletop_ccg: "Tabletop (CCG)"
   pentathlon: "MAGOlympics Pentathlon"
 
+# entries here must also exist in event_locations
+uber::plugin_panels::panel_rooms: "panels_1,panels_2,panels_3"
+
 uber::config::shirt_level: 20
 uber::config::supporter_level: 50
 uber::config::season_level: 160
@@ -189,7 +183,7 @@ uber::config::interest_list:
   dealers: "Dealers"
   tournaments: "Tournaments"
 
-uber::config::hotel_req_hour: 24
+uber::plugin_hotel::hotel_req_hours: 24
 
 uber::config::volunteer_checklist:
   4: 'hotel_requests/hotel_item.html'
