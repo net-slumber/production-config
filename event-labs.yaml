@@ -235,18 +235,19 @@ uber::config::dept_head_checklist:
     description: "What do you need in terms of laptops, projectors, cables, internet access, etc?"
     path: "/techops/tech_requirements"
 
-uber::plugin_panels::panel_rooms: "panels_1,panels_2,panels_3"   # empty list
+uber::plugin_panels::panel_rooms: "panels_1,panels_2,panels_3"
 uber::plugin_panels::hide_schedule: true
 
-uber::plugin_bands::band_email:           'MAGStock Music Department <music@magstock.org>'
-uber::plugin_bands::band_email_signature: '- MAGStock Music Department'
+uber::plugin_bands::band_email:           'MAGLabs Music Department <music@magfest.org>'
+uber::plugin_bands::band_email_signature: '- MAGLabs Music Department'
 
-uber::plugin_bands::auction_start: ''             # set to a date to enable
-uber::plugin_bands::band_panel_deadline: ''       # set to a date to enable
-uber::plugin_bands::band_bio_deadline: ''         # set to a date to enable
-uber::plugin_bands::band_agreement_deadline: ''   # set to a date to enable
-uber::plugin_bands::band_w9_deadline: ''          # set to a date to enable
-uber::plugin_bands::band_merch_deadline: ''       # set to a date to enable
-uber::plugin_bands::band_charity_deadline: ''     # set to a date to enable
-uber::plugin_bands::band_badge_deadline: ''       # set to a date to enable
-uber::plugin_bands::stage_agreement_deadline: ''  # set to a date to enable
+uber::plugin_bands::auction_start:            '2016-09-11 11' # TODO: verify. likely.
+
+uber::plugin_bands::band_panel_deadline:      '2016-08-01 08'
+uber::plugin_bands::band_bio_deadline:        '2016-07-01 08'
+uber::plugin_bands::band_agreement_deadline:  '2016-06-25 08'
+uber::plugin_bands::band_w9_deadline:         '2016-07-25 08'
+uber::plugin_bands::band_merch_deadline:      '2016-08-01 08'
+uber::plugin_bands::band_charity_deadline:    '2016-09-05 08'
+uber::plugin_bands::band_badge_deadline:      '2016-08-10 08'
+uber::plugin_bands::stage_agreement_deadline: '2016-08-15 08'
