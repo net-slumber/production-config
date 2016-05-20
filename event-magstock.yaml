@@ -20,7 +20,7 @@ uber::config::event_venue_address: '4400 Byrd Mill Road, Louisa, VA 23093'
 uber::config::groups_enabled: 'False'
 uber::config::kiosk_cc_enabled: True
 
-uber::config::epoch: '2016-06-16 18'
+uber::config::epoch: '2016-06-17 08'
 uber::config::eschaton: '2016-06-19 18'
 uber::config::prereg_open: '2016-04-29 10'
 uber::config::prereg_takedown: '2016-06-12'
@@ -166,12 +166,11 @@ uber::plugin_panels::hide_schedule: true
 uber::plugin_bands::band_email:           'MAGStock Music Department <music@magstock.org>'
 uber::plugin_bands::band_email_signature: '- MAGStock Music Department'
 
-uber::plugin_bands::auction_start: ''             # set to a date to enable
-uber::plugin_bands::band_panel_deadline: ''       # set to a date to enable
-uber::plugin_bands::band_bio_deadline: ''         # set to a date to enable
-uber::plugin_bands::band_agreement_deadline: ''   # set to a date to enable
-uber::plugin_bands::band_w9_deadline: ''          # set to a date to enable
-uber::plugin_bands::band_merch_deadline: ''       # set to a date to enable
-uber::plugin_bands::band_charity_deadline: ''     # set to a date to enable
-uber::plugin_bands::band_badge_deadline: ''       # set to a date to enable
-uber::plugin_bands::stage_agreement_deadline: ''  # set to a date to enable
+uber::plugin_bands::band_panel_deadline:      ''  # disabled for magstock
+uber::plugin_bands::band_bio_deadline:        '2016-06-01 08'
+uber::plugin_bands::band_agreement_deadline:  '2016-05-25 08'
+uber::plugin_bands::band_w9_deadline:         '2016-05-25 08'
+uber::plugin_bands::band_merch_deadline:      '2016-06-05 08'
+uber::plugin_bands::band_charity_deadline:    ''  # disabled for magstock
+uber::plugin_bands::band_badge_deadline:      '2016-06-10 08'
+uber::plugin_bands::stage_agreement_deadline: '2016-06-05 08'
