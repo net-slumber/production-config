@@ -174,3 +174,5 @@ uber::plugin_bands::band_merch_deadline:      '2016-06-05 08'
 uber::plugin_bands::band_charity_deadline:    ''  # disabled for magstock
 uber::plugin_bands::band_badge_deadline:      '2016-06-10 08'
 uber::plugin_bands::stage_agreement_deadline: '2016-06-05 08'
+
+uber::plugin_bands::require_dedicated_band_table_presence: false
