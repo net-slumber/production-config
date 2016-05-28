@@ -9,6 +9,8 @@ uber::plugins::extra_plugins:
     git_repo: 'https://github.com/magfest/magstock'
     git_branch: 'master'
 
+uber::config::priority_plugins: "uber, panels, bands"
+
 uber::config::numbered_badges: 'False'
 
 uber::config::event_name:     'MAGStock'
