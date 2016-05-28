@@ -19,7 +19,7 @@ uber::plugins::extra_plugins:
     git_repo: 'https://github.com/magfest/attendee_tournaments'
     git_branch: 'master'
 
-uber::config::priority_plugins: "uber, panels"
+uber::config::priority_plugins: "uber, panels, bands"
 
 uber::plugin_hotel::hotel_req_hours: 24
 
