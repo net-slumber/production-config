@@ -131,7 +131,7 @@ uber::config::coming_as_types:
 # number of people allowed to buy meals.
 # this number does NOT include people who get free meals automatically like: staff badges, performers, and their +1s
 # the amount of meals we need to serve may end up ~40 higher than this number.
-uber::config::food_stock: 130       # only affects MAGSTOCK instances
+uber::config::food_stock: 101       # only affects MAGSTOCK instances
 uber::config::food_price: 20        # only affects MAGSTOCK instances
 
 uber::config::supporter_stock: 50
