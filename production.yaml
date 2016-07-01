@@ -3,3 +3,7 @@
 # enable our logs to be sent to a centralized server for processing later
 # note: the magfest logging host currently only accepts whitelisted IPs
 uber::log-filebeat::server_name_and_port:  'docker.magfest.net:9200'
+
+# tell our logs to always indent multiline log output.  this makes it easier to parse them later
+# in external log processing apps for multiline things like tracebacks.
+uber::config::log_force_multiline_indent: True
