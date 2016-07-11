@@ -1,17 +1,15 @@
 ---
+# magfest prime event-specific settings
+
 classes:
 - roles::uber_server
 - uber::plugin_panels
 - uber::plugin_bands
 - uber::plugin_hotel
 - uber::plugin_tabletop
-
-# magfest prime event-specific settings
+- uber::plugin_magfest
 
 uber::plugins::extra_plugins:
-  magprime:
-    git_repo: 'https://github.com/magfest/magprime'
-    git_branch: 'master'
   mivs:
     git_repo: 'https://github.com/magfest/mivs'
     git_branch: 'master'
@@ -286,6 +284,10 @@ uber::config::volunteer_checklist:
 uber::config::dept_head_overrides:
   - 'challenges = "Orvie Thumel / Daniel Hill / Bunny Smith / Michael Ridgaway"'
 
+# TODO: changeme: these are the same forms as magprime 2016 (last year)
+uber::plugin_magfest::treasury_dept_checklist_form_url:   "https://docs.google.com/spreadsheets/d/1v-jZ7NPIgpR0-wsfZFOTKJJbKDUrd-xVIgf0mTTbjtM/edit#gid=799868163"
+uber::plugin_magfest::techops_dept_checklist_form_url:    "https://magops.wufoo.com/forms/tech-requirements-form/"
+
 uber::config::dept_head_checklist:
   creating_shifts:
     deadline: "2015-11-17"
@@ -300,12 +302,12 @@ uber::config::dept_head_checklist:
     name: "MPoint Needs"
     deadline: "2015-12-15"
     description: "Tell us whether you need any mpoints for your department."
-    path: "/magprime_dept_checklist/treasury"
+    path: "/magfest_dept_checklist/treasury"
   allotments:
     name: "Treasury Information"
     deadline: "2015-12-15"
     description: "If you need cash and/or mpoints, tell us your department schedule and your specific cash needs."
-    path: "/magprime_dept_checklist/allotments"
+    path: "/magfest_dept_checklist/allotments"
   approve_setup_teardown:
     name: "Approve/Decline Requests to Help With Setup/Teardown"
     deadline: "2015-12-22"
@@ -334,7 +336,7 @@ uber::config::dept_head_checklist:
     name: "Tech Requirements"
     deadline: "2015-12-29"
     description: "What do you need in terms of laptops, projectors, cables, internet access, etc?"
-    path: "/magprime_dept_checklist/tech_requirements"
+    path: "/magfest_dept_checklist/tech_requirements"
   postcon_hours:
     name: "(After the Event) Marking and Rating Shifts"
     deadline: "2016-03-01"

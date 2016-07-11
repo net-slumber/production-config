@@ -3,6 +3,7 @@ classes:
 - roles::uber_server
 - uber::plugin_panels
 - uber::plugin_bands
+- uber::plugin_magfest
 
 uber::plugins::extra_plugins:
   magstock:
