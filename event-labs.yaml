@@ -250,7 +250,9 @@ uber::plugin_bands::band_charity_deadline:    '2016-09-05 08'
 uber::plugin_bands::band_badge_deadline:      '2016-08-10 08'
 uber::plugin_bands::stage_agreement_deadline: '2016-08-15 08'
 
+uber::plugin_bands::require_dedicated_band_table_presence: true
+
 uber::plugin_bands::band_merch_enums:
   no_merch:     "Not selling merch"
   own_table:    "Dedicated table"
-  rock_island:  "Rock Island" # enable rock island
+#   rock_island:  "Rock Island" # enable rock island
