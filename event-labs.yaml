@@ -273,10 +273,10 @@ uber::plugin_bands::band_merch_enums:
 
 uber::config::regdesk_sig: |
     - Nikki Salapa,
-    MAGFest Registration Dept Head
+    MAGFest Laboratories Registration Dept Head
 
-uber::config::marketplace_email: "MAGFest Labs Marketplace <labs-marketplace@magfest.org>",
+uber::config::marketplace_email: "MAGFest Laboratories Marketplace <labs-marketplace@magfest.org>",
 uber::config::marketplace_sig: |
     - Shane Borrelli,
-    MAGFest Labs Marketplace Coordinator
+    MAGFest Laboratories Marketplace Coordinator
 
