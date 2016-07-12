@@ -147,7 +147,6 @@ uber::config::job_interests:
   shedspace: "Jam Clinic"
   jamspace: "Jam Space"
   lan: "LAN"
-  lanlounge: "LAN Events"
   larp: "LARP"
   panels: "Panels"
   regdesk: "Regdesk"
@@ -157,7 +156,6 @@ uber::config::job_interests:
   tabletop: "Tabletop"
   tech_ops: "Tech Ops"
   tea_room: "Tea Room"
-  
 
 uber::config::job_locations:
   console: "Consoles"
@@ -282,7 +280,7 @@ uber::config::volunteer_checklist:
   5: 'signups/shifts_item.html'
 
 uber::config::dept_head_overrides:
-  - 'challenges = "Orvie Thumel / Daniel Hill / Bunny Smith / Michael Ridgaway"'
+  - 'challenges = "Orvie Thumel / Daniel Hill / Bunny Smith"'
 
 # TODO: changeme: these are the same forms as magprime 2016 (last year)
 uber::plugin_magfest::treasury_dept_checklist_form_url:   "https://docs.google.com/spreadsheets/d/1v-jZ7NPIgpR0-wsfZFOTKJJbKDUrd-xVIgf0mTTbjtM/edit#gid=799868163"
@@ -290,7 +288,7 @@ uber::plugin_magfest::techops_dept_checklist_form_url:    "https://magops.wufoo.
 
 uber::config::dept_head_checklist:
   creating_shifts:
-    deadline: "2016-10-17"
+    deadline: "2016-10-25"
     description: "STOPS is happy to assist you in creating shifts. Since the days of the week are different than M13, we recomend only using M13 as a simple guideline.  Please let us know if you need assistance with this step."
     path: "/jobs/index?location={department}"
   assigned_volunteers:
@@ -319,13 +317,13 @@ uber::config::dept_head_checklist:
     description: "Double check that everyone in your department who you know needs hotel space has requested it."
     path: "/hotel/index?department={department}"
   printed_signs:
-    deadline: "2016-12-05"
+    deadline: "2016-12-06"
     description: "Other than a sign for your area, what printed signs/banners/forms do you need?"
   office_supplies:
-    deadline: "2016-12-05"
+    deadline: "2016-12-06"
     description: "Do you need any paper, pens, sharpies, tripods, whiteboards, scissors, staplers, etc?"
   custom_ribbons:
-    deadline: "2016-12-05"
+    deadline: "2016-12-06"
     description: "Besides the ribbons given out at registration, you may need your own ribbon type to help manage access to certain restricted areas. If so, please let us know what they should say, how many you'll need, and what color you'd like them to be. These ribbons will be given to you at the beginning of MAGFest to distribute to whoever needs them.  (Note: Small orders of ribbons are very expensive - please request a ribbon type only if you need it, and tell us why you need it so we can make sure there's no duplication between departments.)"
   placeholders:
     name: "Checking Placeholder Registrations"
@@ -339,7 +337,7 @@ uber::config::dept_head_checklist:
     path: "/magfest_dept_checklist/tech_requirements"
   postcon_hours:
     name: "(After the Event) Marking and Rating Shifts"
-    deadline: "2017-02-01"
+    deadline: "2017-01-24"
     description: "After the weekend is over, we'll want all department heads to ensure that their volunteers had their shifts marked and rated."
     path: "/jobs/signups?location=59983785"
 
