@@ -1,4 +1,4 @@
 ---
 
 # fake at-the-con mode to test on-site reg functionality
-uber::config::at_the_con: 'True'
+uber::config::at_the_con: 'False'
