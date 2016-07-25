@@ -10,6 +10,9 @@ classes:
 - uber::plugin_magfest
 
 uber::plugins::extra_plugins:
+  magprime:
+    git_repo: 'https://github.com/magfest/magprime'
+    git_branch: 'master'
   mivs:
     git_repo: 'https://github.com/magfest/mivs'
     git_branch: 'master'
