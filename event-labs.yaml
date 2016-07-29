@@ -194,7 +194,7 @@ uber::config::volunteer_checklist:
 
 # TODO: changeme: these are the same forms as magprime 2016 (last year)
 uber::plugin_magfest::treasury_dept_checklist_form_url:   "https://docs.google.com/spreadsheets/d/1v-jZ7NPIgpR0-wsfZFOTKJJbKDUrd-xVIgf0mTTbjtM/edit#gid=799868163"
-uber::plugin_magfest::techops_dept_checklist_form_url:    "https://magops.wufoo.com/forms/tech-requirements-form/"
+uber::plugin_magfest::techops_dept_checklist_form_url:    "https://docs.google.com/forms/d/e/1FAIpQLSeDwhKy5-awt2zZT63y61qKPhaJdbYVNuQDhK0yLHUFsrgYdg/viewform?c=0&w=1"
 
 uber::config::dept_head_checklist:
   creating_shifts:
