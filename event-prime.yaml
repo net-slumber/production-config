@@ -165,7 +165,6 @@ uber::config::job_interests:
 uber::config::job_locations:
   console: "Consoles"
   arcade: "Arcade"
-  arcade_crew: "Arcade_Crew"
   attendee_service: "Attendee Services"
   autographs: "Autographs"
   artemis: "Artemis"
@@ -173,8 +172,7 @@ uber::config::job_locations:
   charity: "Charity"
   chipspace: "Chipspace"
   concert: "Concert"
-  concertsecurity: "Concert Security"
-  contractors: "Public Safety"
+  concert_security: "Concert Security"
   con_ops: "Fest Ops"
   dispatch: "Dispatch"
   dorsai: "Dorsai"
@@ -193,22 +191,24 @@ uber::config::job_locations:
   mops: "MEDIATRON!"
   museum: "Museum"
   nga: "Nexus Gaming Alliance"
+  public_safety: "Public Safety"
   regdesk: "Regdesk"
   reg_managers: "Reg Managers"
   rescuers: "Rescuers"
   security: "Security"
   shedspace: "Jam Clinic"
+  simulations: "Simulations" # Artemis, Starship Horizons, Battle Pods
   staff_support: "Staff Support"
-  starship_horizons: "Starship Horizons"
   stops: "Staffing Ops"
   tabletop: "Tabletop"
+  tabletop_rpg: "Tabletop (RPG)"
+  tabletop_ccg: "Tabletop (CCG)"
   treasury: "Treasury"
-  ccg_tabletop: "Tabletop (CCG)"
   tech_ops: "Tech Ops"
   tea_room: "Tea Room"
   zombie_tag: "Zombie Tag"
 
-uber::config::shiftless_depts: "dorsai,marketplace,nga,starship_horizons,artemis"
+uber::config::shiftless_depts: "dorsai,marketplace,nga,simulations"
 
 uber::config::shirt_level: 20
 uber::config::supporter_level: 80
