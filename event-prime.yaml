@@ -165,6 +165,7 @@ uber::config::job_interests:
 uber::config::job_locations:
   console: "Consoles"
   arcade: "Arcade"
+  arcade_crew: "Arcade_Crew"
   attendee_service: "Attendee Services"
   autographs: "Autographs"
   artemis: "Artemis"
