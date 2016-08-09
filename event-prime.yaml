@@ -107,6 +107,9 @@ uber::config::badge_types:
   attendee_badge:
     range_start: 3000
     range_end: 29999
+  child_badge:
+    range_start: 3000
+    range_end: 29999
   one_day_badge:
     range_start: 30000
     range_end: 39999
