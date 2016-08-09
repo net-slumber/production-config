@@ -112,7 +112,7 @@ uber::config::badge_types:
     range_end: 39999
   child_badge:
     range_start: 40000
-    range_end: 41499
+    range_end: 44999
 
 uber::config::initial_attendee: 50    # badge price
 uber::config::dealer_badge_price: 30
