@@ -80,6 +80,7 @@ uber::config::donation_tier:
 
 uber::config::badge_enums:
         attendee_badge:         "Attendee"
+        child_badge:            "Minor"
         supporter_badge:        "Supporter"
         staff_badge:            "Staff"
         guest_badge:            "Guest"
