@@ -80,6 +80,7 @@ uber::config::donation_tier:
 
 uber::config::badge_enums:
   attendee_badge:         "Attendee"
+  child_badge:            "Minor"
   supporter_badge:        "Supporter"
   staff_badge:            "Staff"
   guest_badge:            "Guest"
@@ -109,6 +110,9 @@ uber::config::badge_types:
   one_day_badge:
     range_start: 30000
     range_end: 39999
+  child_badge:
+    range_start: 40000
+    range_end: 44999
 
 uber::config::initial_attendee: 50    # badge price
 uber::config::dealer_badge_price: 30
