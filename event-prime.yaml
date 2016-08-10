@@ -85,22 +85,22 @@ uber::config::donation_tier_descriptions:
     link: ""
   shirt:
     name: "T-Shirt Bundle"
-    icon: "http://placehold.it/50x50?text=icon"
+    icon: "../static/icons/iconshirt.png"
     description: "Ribbon|T-Shirt"
-    link: "../static_views/supporters.html|../static_views/supporters.html"
+    link: "../static_views/ribbon.html|../static_views/supporters.html"
   i_heart_magfest:
     name: "I <3 Magfest"
-    icon: "http://placehold.it/50x50?text=icon"
+    icon: "../static/icons/heart-necklace.png"
     description: "Small Cowbell|Heart Enamel Necklace"
     link: "../static_views/supporters.html|../static_views/supporters.html"
   supporter_package:
     name: "Supporter Package"
-    icon: "http://placehold.it/50x50?text=icon"
+    icon: "../static/icons/cowbell.png"
     description: "Personalized Keepsake Badge|Swag Bag"
     link: "../static_views/supporters.html|../static_views/supporters.html"
   vampire:
     name: "Vampire"
-    icon: "http://placehold.it/50x50?text=icon"
+    icon: "../static/icons/menace.png"
     description: "More Cowbell|Miserable Pile of Secrets"
     link: "../static_views/supporters.html|../static_views/supporters.html"
 
