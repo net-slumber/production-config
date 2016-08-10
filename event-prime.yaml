@@ -80,27 +80,27 @@ uber::config::donation_tier:
 uber::config::donation_tier_descriptions:
   no_thanks:
     name: "No thanks"
-    icon: "http://something.com"
+    icon: "http://placehold.it/50x50?text=icon"
     description: "No thanks"
     link: "../static_views/supporters.html"
   shirt:
     name: "T-Shirt Bundle"
-    icon: "http://something.com"
+    icon: "http://placehold.it/50x50?text=icon"
     description: "Shirt bundle etc"
     link: "../static_views/supporters.html"
   i_heart_magfest:
     name: "I <3 Magfest"
-    icon: "http://something.com"
+    icon: "http://placehold.it/50x50?text=icon"
     description: "Necklace thing squarewave stuff"
     link: "../static_views/supporters.html"
   supporter_package:
     name: "Supporter Package"
-    icon: "http://something.com"
+    icon: "http://placehold.it/50x50?text=icon"
     description: "A BUNCH OF STUFF"
     link: "../static_views/supporters.html"
   vampire:
     name: "Vampire"
-    icon: "http://something.com"
+    icon: "http://placehold.it/50x50?text=icon"
     description: "Better than a stake through the heart"
     link: "../static_views/supporters.html"
 
