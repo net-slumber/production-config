@@ -22,7 +22,7 @@ uber::plugins::extra_plugins:
 
 uber::config::priority_plugins: "uber, panels, bands"
 
-uber::plugin_hotel::hotel_req_hours: 24
+uber::plugin_hotel::hotel_req_hours: 30
 
 uber::config::room_deadline: '2016-11-21'
 
