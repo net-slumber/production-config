@@ -67,29 +67,29 @@ uber::config::at_the_con: 'False'
 uber::config::post_con: 'False'
 
 uber::config::donation_tier:
-    - "'No thanks'      = 0"
-    - "'Ribbon'         = 5"
-    - "'Button'         = 10"
-    - "'Shirt'          = SHIRT_LEVEL"
-    - "'Guitar Keychain' = 40"
-    - "'Supporter Package' = SUPPORTER_LEVEL"
-    - "'Battery Pack'   = 100"
-    - "'Season Pass'    = SEASON_LEVEL"
-    - "'Canvas Art Print' = 250"
-    - "'Decorative Air Guitar' = 500"
+  No thanks: 0
+  Ribbon: 5
+  Button: 10
+  Shirt: SHIRT_LEVEL
+  Guitar Keychain: 40
+  Supporter Package: SUPPORTER_LEVEL
+  Battery Pack: 100
+  Season Pass: SEASON_LEVEL
+  Canvas Art Print: 250
+  Decorative Air Guitar: 500
 
 uber::config::badge_enums:
-        attendee_badge:         "Attendee"
-        child_badge:            "Minor"
-        supporter_badge:        "Supporter"
-        staff_badge:            "Staff"
-        guest_badge:            "Guest"
-        one_day_badge:          "One Day"
+  attendee_badge:         "Attendee"
+  child_badge:            "Minor"
+  supporter_badge:        "Supporter"
+  staff_badge:            "Staff"
+  guest_badge:            "Guest"
+  one_day_badge:          "One Day"
 
 uber::config::badge_stocks:
-    friday: 1300
-    saturday: 1500
-    sunday: 700
+  friday: 1300
+  saturday: 1500
+  sunday: 700
 
 # prereg form UI options
 uber::config::donations_enabled: true
@@ -127,22 +127,22 @@ uber::config::table_prices:
 
 uber::config::badge_prices:
   single_day:
-    - { 'Thursday': 40 }
-    - { 'Friday': 45 }
-    - { 'Saturday': 45 }
-    - { 'Sunday': 25 }
+    Thursday: 40
+    Friday: 45
+    Saturday: 45
+    Sunday: 25
 
   attendee:
-    - { '2016-09-01': 55 }
-    - { '2016-10-01': 60 }
-    - { '2016-11-01': 65 }
-    - { '2016-12-01': 70 }
-    - { '2017-01-01': 80 }
-    - { '4000': 55 }
-    - { '5000': 60 }
-    - { '6000': 65 }
-    - { '7000': 70 }
-    - { '10500': 80 }
+    '2016-09-01': 55
+    '2016-10-01': 60
+    '2016-11-01': 65
+    '2016-12-01': 70
+    '2017-01-01': 80
+    4000: 55
+    5000: 60
+    6000: 65
+    7000: 70
+    10500: 80
     
 uber::config::shift_custom_badges: true
 
@@ -223,30 +223,30 @@ uber::config::supporter_level: 80
 uber::config::season_level: 160
 
 uber::config::shirt_sizes:
-  - "'No Shirt'      = 0"
-  - "'S Unisex'            = 1"
-  - "'M Unisex'           = 2"
-  - "'L Unisex'            = 3"
-  - "'XL Unisex'          = 4"
-  - "'2XL Unisex'         = 5"
-  - "'3XL Unisex'        = 6"
-  - "'4XL Unisex'       = 11"
-  - "'5XL Unisex'      = 12"
-  - "'S Unisex slim fit' = 14"
-  - "'M Unisex slim fit' = 15"
-  - "'L Unisex slim fit' = 16"
-  - "'XL Unisex slim fit' = 17"
-  - "'2XL Unisex slim fit' = 18"
-  - "'S Women\'s'   = 7"
-  - "'M Women\'s'  = 8"
-  - "'L Women\'s'   = 9"
-  - "'XL Women\'s' = 10"
-  - "'2XL Women\'s' = 13"
-  - "'S Women\'s slim fit' = 19"
-  - "'M Women\'s slim fit' = 20"
-  - "'L Women\'s slim fit' = 21"
-  - "'XL Women\'s slim fit' = 22"
-  - "'2XL Women\'s slim fit' = 23"
+  No Shirt: 0
+  S Unisex: 1
+  M Unisex: 2
+  L Unisex: 3
+  XL Unisex: 4
+  2XL Unisex: 5
+  3XL Unisex: 6
+  4XL Unisex: 11
+  5XL Unisex: 12
+  S Unisex slim fit: 14
+  M Unisex slim fit: 15
+  L Unisex slim fit: 16
+  XL Unisex slim fit: 17
+  2XL Unisex slim fit: 18
+  S Women's: 7
+  M Women's: 8
+  L Women's: 9
+  XL Women's: 10
+  2XL Women's: 13
+  S Women's slim fit: 19
+  M Women's slim fit: 20
+  L Women's slim fit: 21
+  XL Women's slim fit: 22
+  2XL Women's slim fit: 23
 
 uber::config::interest_list:
   console: "Consoles"

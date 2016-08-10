@@ -56,9 +56,9 @@ uber::config::at_the_con: 'False'
 uber::config::out_of_shirts: 'False'
 
 uber::config::donation_tier:
-  - "'No thanks'      = 0"
-  - "'Shirt'          = SHIRT_LEVEL"
-  - "'Supporter Pack' = SUPPORTER_LEVEL"
+ No thanks: 0
+ Shirt: SHIRT_LEVEL
+ Supporter Pack: SUPPORTER_LEVEL
 
 uber::config::badge_enums:
   attendee_badge:         "Attendee"
@@ -101,11 +101,11 @@ uber::config::table_prices:
 
 uber::config::badge_prices:
   single_day:
-    - { 'Friday': 30 }
-    - { 'Saturday': 30 }
-    - { 'Sunday': 20 }
+    Friday: 30
+    Saturday: 30
+    Sunday: 20
   attendee:
-    - { '2016-09-09': 50 }
+    '2016-09-09': 50
 
 uber::config::shift_custom_badges: true
 
