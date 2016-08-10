@@ -80,9 +80,9 @@ uber::config::donation_tier:
 uber::config::donation_tier_descriptions:
   no_thanks:
     name: "No thanks"
-    icon: "http://placehold.it/50x50?text=icon"
+    icon: ""
     description: "No thanks"
-    link: "../static_views/supporters.html"
+    link: ""
   shirt:
     name: "T-Shirt Bundle"
     icon: "http://placehold.it/50x50?text=icon"
