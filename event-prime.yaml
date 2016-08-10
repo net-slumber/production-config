@@ -22,7 +22,7 @@ uber::plugins::extra_plugins:
 
 uber::config::priority_plugins: "uber, panels, bands"
 
-uber::plugin_hotel::hotel_req_hours: 24
+uber::plugin_hotel::hotel_req_hours: 30
 
 uber::config::room_deadline: '2016-11-21'
 
@@ -54,10 +54,10 @@ uber::config::printed_badge_deadline: '2016-12-05'
 
 uber::config::shifts_created: '2016-10-26'
 
-uber::config::dealer_reg_start: '2016-07-31 19'       # dealer reg not allowed before this date
-uber::config::dealer_reg_deadline: '2016-08-15 03'    # after this date, applications are auto-waitlisted
-uber::config::dealer_reg_shutdown: '2016-08-18'       # after this date, no new applications allowed
-uber::config::dealer_payment_due: '2016-11-15'        # dealers must pay by this date
+uber::config::dealer_reg_start: '2016-08-19 20'       # dealer reg not allowed before this date
+uber::config::dealer_reg_deadline: '2016-08-21 20'    # after this date, applications are auto-waitlisted
+uber::config::dealer_reg_shutdown: '2016-08-21 23'       # after this date, no new applications allowed
+uber::config::dealer_payment_due: '2016-12-15'        # dealers must pay by this date
 
 uber::config::max_badge_sales: 20000
 
@@ -141,15 +141,15 @@ uber::config::badge_types:
     range_end: 44999
 
 uber::config::initial_attendee: 50    # badge price
-uber::config::dealer_badge_price: 30
+uber::config::dealer_badge_price: 35
 uber::config::max_dealers: 20
 uber::config::default_table_price: 350
 
 uber::config::table_prices:
-  1: 125
-  2: 175
-  3: 250
-  4: 350
+  1: 150
+  2: 225
+  3: 350
+  4: 500
 
 uber::config::badge_prices:
   single_day:
