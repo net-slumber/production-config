@@ -87,22 +87,22 @@ uber::config::donation_tier_descriptions:
     name: "T-Shirt Bundle"
     icon: "../static/icons/iconshirt.png"
     description: "Ribbon|T-Shirt"
-    link: "../static_views/ribbon.html|../static_views/supporters.html"
+    link: "../static_views/ribbon.html|../static_views/tshirt.html"
   i_heart_magfest:
     name: "I <3 Magfest"
     icon: "../static/icons/heart-necklace.png"
     description: "Small Cowbell|Heart Enamel Necklace"
-    link: "../static_views/supporters.html|../static_views/supporters.html"
+    link: "../static_views/cowbell.html|../static_views/pendant.html"
   supporter_package:
     name: "Supporter Package"
     icon: "../static/icons/star.png"
     description: "Personalized Keepsake Badge|Swag Bag"
-    link: "../static_views/supporters.html|../static_views/supporters.html"
+    link: "../static_views/keepsakebadge.html|../static_views/swagbag.html"
   vampire:
     name: "Vampire"
     icon: "../static/icons/menace.png"
     description: "More Cowbell|Miserable Pile of Secrets"
-    link: "../static_views/supporters.html|../static_views/supporters.html"
+    link: "../static_views/morecowbell.html|../static_views/secrets.html"
 
 uber::config::badge_enums:
   attendee_badge:         "Attendee"
