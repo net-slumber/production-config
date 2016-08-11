@@ -120,6 +120,10 @@ uber::config::badge_stocks:
 # prereg form UI options
 uber::config::donations_enabled: true
 
+uber::config::extra_ribbon_types:
+  band: "RockStar"
+  over_13: "Between 13 and 18"
+
 uber::config::badge_types:
   staff_badge:
     range_start: 152
