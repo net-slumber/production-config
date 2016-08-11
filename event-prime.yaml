@@ -95,7 +95,7 @@ uber::config::donation_tier_descriptions:
     link: "../static_views/supporters.html|../static_views/supporters.html"
   supporter_package:
     name: "Supporter Package"
-    icon: "../static/icons/cowbell.png"
+    icon: "../static/icons/star.png"
     description: "Personalized Keepsake Badge|Swag Bag"
     link: "../static_views/supporters.html|../static_views/supporters.html"
   vampire:
