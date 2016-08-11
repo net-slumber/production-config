@@ -253,7 +253,7 @@ uber::config::supporter_level: 80
 uber::config::season_level: 160
 
 uber::config::shirt_sizes:
-  Select a size: 0
+  no shirt: 0               # MUST BE 'no shirt' all lowercase or things break
   S Unisex: 1
   M Unisex: 2
   L Unisex: 3
