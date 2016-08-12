@@ -20,6 +20,10 @@ uber::plugins::extra_plugins:
     git_repo: 'https://github.com/magfest/attendee_tournaments'
     git_branch: 'master'
 
+# optimizations designed for handling the heaviest load, use for magprime prereg launch
+# disable after the first launch is done
+uber::config::hardcore_optimizations_enabled: 'True'
+
 uber::config::priority_plugins: "uber, panels, bands"
 
 uber::plugin_hotel::hotel_req_hours: 30
