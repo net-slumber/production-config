@@ -2,15 +2,3 @@
 
 # fake at-the-con mode to test on-site reg functionality
 uber::config::at_the_con: 'False'
-
-# testing if we can deal with this being off
-uber::config::hardcore_optimizations_enabled: 'False'
-
-# test our optimizations branch
-#uber::plugins::sideboard_plugins:
-#  uber:
-#    git_repo: 'https://github.com/magfest/ubersystem'
-#    git_branch: 'optimization-master'
-#  uber_analytics:
-#    git_repo: 'https://github.com/magfest/uber_analytics'
-#    git_branch: 'master'
