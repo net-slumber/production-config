@@ -52,3 +52,8 @@ uber::config::food_restriction:
     eggs: "No eggs"
     nuts: "No nuts"
     red_meat: "No red meat"
+
+# note: these are somewhat public so, make sure anything you put in here
+# you are cool sharing with the public.
+uber::firewall::blacklisted_ips:
+ - 52.71.155.178   # Kontera running on AWS indexing weird stuff
