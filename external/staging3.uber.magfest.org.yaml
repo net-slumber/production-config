@@ -2,3 +2,8 @@
 
 # fake at-the-con mode to test on-site reg functionality
 uber::config::at_the_con: 'False'
+
+
+# fake opening these early, diable when actually open
+uber::plugin_mivs::round_one_deadline:    "2016-09-12"
+uber::config::dealer_reg_start: '2016-08-17 20'
