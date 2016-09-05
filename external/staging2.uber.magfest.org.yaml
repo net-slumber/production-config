@@ -1,5 +1,8 @@
 ---
 
+classes:
+- uber::db_replication_master
+
 # ----------------------
 # database replication
 # ----------------------
