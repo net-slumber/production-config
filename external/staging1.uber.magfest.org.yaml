@@ -1,9 +1,19 @@
 ---
 
+# ----------------------
+# database replication
+# ----------------------
+
+uber::db::replication_mode:                         slave
+uber::db_replication_slave::replication_password:   test_h@ckme  # for production, ONLY SET IN SECRET SETTINGS
+uber::db_replication_slave::replicate_from:            staging2.uber.magfest.org
+
+# --------------
+
 # open prereg early on this particular server
 # so we can test before prereg really opens
 # uber::config::prereg_open: '2015-08-13'
 
-uber::config::at_the_con: 'True'
+uber::config::at_the_con: True
 
 test_only_ignore_this: True
