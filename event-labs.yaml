@@ -256,7 +256,7 @@ uber::config::dept_head_checklist:
     path: "/jobs/signups?location=59983785"
 
 uber::plugin_panels::panel_rooms: "panels_1,panels_2,panels_3"
-uber::plugin_panels::hide_schedule: true
+uber::plugin_panels::hide_schedule: false
 
 uber::plugin_bands::band_email:           'MAGLabs Music Department <labs-music@magfest.org>'
 uber::plugin_bands::band_email_signature: '- MAGLabs Music Department'
