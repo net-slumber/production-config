@@ -1,18 +1,15 @@
 ---
-# uber::config::post_con: 'True'
-
 # set this so that onsite emails from the onsite server have the correct base URL
 uber::config::url_base: 'https://labs.uber.magfest.org/uber'
-
-
-classes:
-- uber::db_replication_master
 
 # ----------------------
 # database replication
 # ----------------------
 
-uber::db::replication_mode:                         master
+# classes:
+# - uber::db_replication_master
+
+# uber::db::replication_mode:                         master
 # uber::db_replication_master::replication_password:  [PASSWORD]   # this is set in the mcp secret settings
-uber::db_replication_master::allow_to_hosts:
- - labs.uber.magfest.org
+#uber::db_replication_master::allow_to_hosts:
+# - labs.uber.magfest.org

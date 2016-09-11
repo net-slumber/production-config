@@ -1,15 +1,16 @@
 ---
-classes:
-- uber::db_replication_slave
 
 # ----------------------
 # database replication
 # ----------------------
 
-uber::db::replication_mode:                         slave
+# classes:
+# - uber::db_replication_slave
+
+# uber::db::replication_mode:                         slave
 # uber::db_replication_master::replication_password:  [PASSWORD]   # this is set in the mcp secret settings
-uber::db_replication_slave::replicate_from:         onsite.uber.magfest.org
+# uber::db_replication_slave::replicate_from:         onsite.uber.magfest.org
 
 # --------------
 
-uber::nginx::redirect_all_traffic_onsite: True
+# uber::nginx::redirect_all_traffic_onsite: True
