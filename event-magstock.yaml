@@ -10,6 +10,9 @@ uber::plugins::extra_plugins:
   magstock:
     git_repo: 'https://github.com/magfest/magstock'
     git_branch: 'master'
+  reports:
+    git_repo: 'https://github.com/magfest/reports'
+    git_branch: 'master'
 
 uber::config::priority_plugins: "uber, panels, bands"
 
