@@ -51,6 +51,7 @@ uber::config::food_restriction:
     gluten: "No gluten"
     pork: "No pork"
     nuts: "No nuts"
+    vegan: "Vegetarian/Vegan"
 
 # note: these are somewhat public so, make sure anything you put in here
 # you are cool sharing with the public.
