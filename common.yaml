@@ -99,3 +99,4 @@ uber::firewall::blacklisted_ips:
  - 91.224.160.10
  - 91.224.160.106
  - 91.224.160.184   # +++++++  end of SSH bots trying to guess passwords
+ - 38.105.201.194   # guy trying to use sqlmap to do sql injections
