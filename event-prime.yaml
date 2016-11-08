@@ -40,10 +40,6 @@ uber::config::year: 2017
 uber::config::event_venue: 'The Gaylord National Hotel and Convention Center'
 uber::config::event_venue_address: '201 Waterfront St, National Harbor, MD 20745'
 
-uber::config::peglegs_sig: |
-    - Tom Hyre,
-    MAGFest Director of Panel Operations
-
 uber::config::epoch: '2017-01-05 08'
 uber::config::eschaton: '2017-01-08 18'
 
@@ -225,6 +221,7 @@ uber::config::job_locations:
   con_ops: "Fest Ops"
   dispatch: "Dispatch"
   dorsai: "Dorsai"
+  escape_room: "Escape Room"
   panels: "Events"
   food_prep: "Staff Suite"
   film_fest: "Games on Film"
@@ -301,21 +298,23 @@ uber::config::interest_list:
   dealers: "Dealers"
   tournaments: "Tournaments"
 
+#Event Locations needs to updated once layout is finalized. 
 uber::config::event_locations:
   panels_1: "Panels 1 (Woodrow Wilson Ballroom)"
-  panels_2: "Panels 2 (Cherry Blossom Ballroom)"
-  panels_3: "Panels 3 (Maryland A)"
+  panels_2: "Panels 2 (Woodrow Wilson Ballroom)"
+  panels_3: "Panels 3 (Cherry Blossom Ballroom)"
   panels_4: "Panels 4 (Chesapeake D,E,F)"
   mages_1: "MAGES 1 (Chesapeake G,H,I)"
   mages_2: "MAGES 2 (Chesapeake 7,8,9)"
   forum: "Forum (Chesapeake J,K,L)"
+  the_forge: "Creation Area (Chesapeake J,K,L)"
   autographs: "Autographs A (Expo Hall E)"
   autographs_1: "Autographs 1 (Expo Hall E)"
   film_fest: "Games on Film (Maryland C)"
-  console_stage: "Arena (Chesapeake 4,5,6)"
-  starship_horizons: "Starship Horizons (Baltimore 1&2)"
-  simulations: "Artemis" #Location TBD
-  console_nga: "Console (Gameroom Tournaments)"
+  console_stage: "Arena (Maryland D)"
+  starship_horizons: "Starship Horizons (Annapolis 1-4)"
+  simulations: "Artemis (Expo Hall C)"
+  console_tournament: "Console (Gameroom Tournaments)"
   console_attendee: "Console (Attendee Tournaments)"
   arcade_tournaments_1: "Arcade (Tournaments 1)"
   arcade_tournaments_2: "Arcade (Tournaments 2)"
@@ -327,19 +326,18 @@ uber::config::event_locations:
   lan_theater: "Lan Theater"
   larp: "LARP (Magnolia 1)"
   tabletop_tournaments: "Tabletop (Tournaments)"
-  tabletop_ccg: "Tabletop (CCG)"
-  pathfinder: "Pathfinder (Magnolia 3)"
+  tabletop_ccg: "Tabletop CCG (National Harbor 4,5,6,7)"
+  pathfinder: "Pathfinder D&D (National Harbor 12,13)"
+  ddal: "D&D Adventurers League, 5th edition (National Harbor 12,13)"
   concerts: "Concerts (Potomac Ballrooms)"
   chiptunes: "Chipspace (Potomac Hallway)"
   magolympics: "Grand Championship"
   zombie_tag: "Zombie Tag (Magnolia 2)"
+  escape_room: "Escape Room (Baltimore 1,2)"
   
 uber::config::volunteer_checklist:
   4: 'hotel_requests/hotel_item.html'
   5: 'signups/shifts_item.html'
-
-uber::config::dept_head_overrides:
-  - 'challenges = "Orvie Thumel / Daniel Hill / Bunny Smith"'
 
 # TODO: changeme: these are the same forms as magprime 2016 (last year)
 uber::plugin_magfest::treasury_dept_checklist_form_url:   "https://docs.google.com/spreadsheets/d/1v-jZ7NPIgpR0-wsfZFOTKJJbKDUrd-xVIgf0mTTbjtM/edit#gid=799868163"
@@ -399,6 +397,14 @@ uber::config::dept_head_checklist:
     deadline: "2017-01-24"
     description: "After the weekend is over, we'll want all department heads to ensure that their volunteers had their shifts marked and rated."
     path: "/jobs/signups?location=59983785"
+
+# Section for Signature Changes specific to event:
+uber::config::dept_head_overrides:
+  - 'challenges = "Orvie Thumel / Daniel Hill / Bunny Smith"'
+
+uber::config::peglegs_sig: |
+    - Tom Hyre,
+    MAGFest Director of Panel Operations
 
 uber::plugin_bands::band_email:           'MAGFest Music Department <music@magfest.org>'
 uber::plugin_bands::band_email_signature: '- MAGFest Music Department'
