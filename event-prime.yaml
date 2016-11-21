@@ -30,7 +30,7 @@ uber::config::priority_plugins: "uber, panels, bands"
 
 uber::plugin_hotel::hotel_req_hours: 30
 
-uber::config::room_deadline: '2016-11-21'
+uber::config::room_deadline: '2016-11-29'
 
 uber::config::groups_enabled: True
 
@@ -131,7 +131,7 @@ uber::config::extra_ribbon_types:
 
 uber::config::badge_types:
   staff_badge:
-    range_start: 50
+    range_start: 25
     range_end: 999
   supporter_badge:
     range_start: 1000
@@ -223,6 +223,7 @@ uber::config::job_locations:
   dorsai: "Dorsai"
   escape_room: "Escape Room"
   panels: "Events"
+  panels1: "Panels" #post event we need to fix to be a Panels and Events departments, changing Job location now would do weird things.
   grand_championship: "MAGFest Grand Championship"
   food_prep: "Staff Suite"
   film_fest: "Games on Film"
@@ -249,7 +250,8 @@ uber::config::job_locations:
   staff_support: "Staff Support"
   stops: "Staffing Ops"
   tabletop: "Tabletop"
-  tabletop_rpg: "Tabletop (RPG)"
+  tabletop_rpg: "Tabletop (Pathfinder)"
+  tabletop_ddal: "Tabletop (DDAL)"
   tabletop_ccg: "Tabletop (CCG)"
   treasury: "Treasury"
   tech_ops: "Tech Ops"
