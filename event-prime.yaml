@@ -30,7 +30,7 @@ uber::config::priority_plugins: "uber, panels, bands"
 
 uber::plugin_hotel::hotel_req_hours: 30
 
-uber::config::room_deadline: '2016-11-21'
+uber::config::room_deadline: '2016-11-29'
 
 uber::config::groups_enabled: True
 
