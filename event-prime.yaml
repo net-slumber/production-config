@@ -131,7 +131,7 @@ uber::config::extra_ribbon_types:
 
 uber::config::badge_types:
   staff_badge:
-    range_start: 50
+    range_start: 25
     range_end: 999
   supporter_badge:
     range_start: 1000
