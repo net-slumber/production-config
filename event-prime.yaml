@@ -223,6 +223,7 @@ uber::config::job_locations:
   dorsai: "Dorsai"
   escape_room: "Escape Room"
   panels: "Events"
+  panels1: "Panels" #post event we need to fix to be a Panels and Events departments, changing Job location now would do weird things.
   grand_championship: "MAGFest Grand Championship"
   food_prep: "Staff Suite"
   film_fest: "Games on Film"
@@ -249,7 +250,8 @@ uber::config::job_locations:
   staff_support: "Staff Support"
   stops: "Staffing Ops"
   tabletop: "Tabletop"
-  tabletop_rpg: "Tabletop (RPG)"
+  tabletop_rpg: "Tabletop (Pathfinder)"
+  tabletop_ddal: "Tabletop (DDAL)"
   tabletop_ccg: "Tabletop (CCG)"
   treasury: "Treasury"
   tech_ops: "Tech Ops"
