@@ -132,9 +132,9 @@ uber::config::extra_ribbon_types:
 uber::config::badge_types:
   staff_badge:
     range_start: 25
-    range_end: 999
+    range_end: 1799
   supporter_badge:
-    range_start: 1000
+    range_start: 1800
     range_end: 1999
   guest_badge:
     range_start: 2000
@@ -206,6 +206,7 @@ uber::config::job_interests:
   tabletop: "Tabletop"
   tech_ops: "Tech Ops"
   tea_room: "Tea Room"
+  other: "Other"
 
 uber::config::job_locations:
   console: "Consoles"
