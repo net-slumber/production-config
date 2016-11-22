@@ -206,6 +206,7 @@ uber::config::job_interests:
   tabletop: "Tabletop"
   tech_ops: "Tech Ops"
   tea_room: "Tea Room"
+  other: "Other"
 
 uber::config::job_locations:
   console: "Consoles"
