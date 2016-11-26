@@ -1,5 +1,7 @@
 ---
 
+uber::config::at_the_con: 'True'
+
 # classes:
 # - uber::db_replication_master
 
@@ -21,5 +23,3 @@
 
 # open dealer reg early on this server so we can test it
 # uber::config::dealer_reg_start: '2016-06-06'
-
-test_only_ignore_this: True
