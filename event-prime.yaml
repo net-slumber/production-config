@@ -331,6 +331,7 @@ uber::config::event_locations:
   lan_3: "LAN 3"
   lan_theater: "Lan Theater"
   larp: "LARP (Magnolia 1)"
+  dm_screen: "DM Screen"
   tabletop_indie: "Tabletop Indie Showcase (National Harbor 10,11)"
   tabletop_tournaments: "Tabletop (Tournaments)"
   tabletop_ccg: "Tabletop CCG (National Harbor 4,5,6,7)"
