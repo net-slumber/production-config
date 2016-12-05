@@ -59,13 +59,13 @@ uber::config::shifts_created: '2016-03-01'   # TODO: set this once we import, if
 uber::config::dealer_reg_start: '2017-04-01 20'       # dealer reg not allowed before this date
 uber::config::dealer_reg_deadline: '2017-05-01 20'    # after this date, applications are auto-waitlisted
 uber::config::dealer_reg_shutdown: '2017-06-01 23'       # after this date, no new applications allowed
-uber::config::dealer_payment_due: '2017-07-31'        # dealers must pay by this date
+uber::config::dealer_payment_due: '2017-07-30'        # dealers must pay by this date
 
 uber::config::max_badge_sales: 2000   # set low for starters, bump up as needed
 
 uber::plugin_panels::hide_schedule: 'True'
 
-uber::plugin_panels::panel_app_deadline: '2017-06-31 20'
+uber::plugin_panels::panel_app_deadline: '2017-06-29 20'
 uber::plugin_panels::expected_response: 'July 2017'
 
 uber::config::at_the_con: 'False'
@@ -409,10 +409,10 @@ uber::plugin_bands::band_email_signature: '- MAGFest Music Department'
 
 uber::plugin_bands::auction_start:            '2017-08-27 11' # placeholder
 
-uber::plugin_bands::band_panel_deadline:      '2017-06-31'
+uber::plugin_bands::band_panel_deadline:      '2017-06-29'
 uber::plugin_bands::band_bio_deadline:        '2017-06-24'
 uber::plugin_bands::band_agreement_deadline:  '2017-06-24'
-uber::plugin_bands::band_w9_deadline:         '2017-06-31'
+uber::plugin_bands::band_w9_deadline:         '2017-06-29'
 uber::plugin_bands::band_merch_deadline:      '2017-07-07'
 uber::plugin_bands::band_charity_deadline:    '2017-08-15'
 uber::plugin_bands::band_badge_deadline:      '2017-08-15'
