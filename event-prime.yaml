@@ -28,8 +28,6 @@ uber::config::hardcore_optimizations_enabled: 'False'
 
 uber::config::priority_plugins: "uber, panels, bands"
 
-uber::config::send_emails:      'False'   # TEMPORARILY DISABLED FOR MAINTENANCE DEPLOY
-
 uber::plugin_hotel::hotel_req_hours: 30
 
 uber::config::room_deadline: '2016-11-29'
