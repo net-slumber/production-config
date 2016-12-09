@@ -225,7 +225,7 @@ uber::config::job_locations:
   escape_room: "Escape Room"
   panels: "Events"
   panels1: "Panels" #post event we need to fix to be a Panels and Events departments, changing Job location now would do weird things.
-  grand_championship: "MAGFest Grand Championship"
+ # grand_championship: "MAGFest Grand Championship" removed for 2017 - revisit in the future do to staffing issue.
   food_prep: "Staff Suite"
   film_fest: "Games on Film"
   indie_games: "Indie Games"
@@ -340,7 +340,7 @@ uber::config::event_locations:
   ddal: "D&D Adventurers League, 5th edition (National Harbor 12,13)"
   concerts: "Concerts (Potomac Ballrooms)"
   chiptunes: "Chipspace (Potomac Hallway)"
-  magolympics: "Grand Championship"
+ # magolympics: "Grand Championship" not happing in 2017
   zombie_tag: "Zombie Tag (Magnolia 2)"
   escape_room: "Escape Room (Baltimore 1,2)"
   
