@@ -321,6 +321,7 @@ uber::config::event_locations:
   starship_horizons: "Starship Horizons (Annapolis 1,2,3,4)"
   simulations: "Artemis (Expo Hall C)"
   console_tournament: "Console (Gameroom Tournaments)"
+  console_tournament_2: "Console (Gameroom Tournaments 2)"
   console_attendee: "Console (Attendee Tournaments)"
   arcade_tournaments_1: "Arcade (Tournaments 1)"
   arcade_tournaments_2: "Arcade (Tournaments 2)"
