@@ -326,6 +326,7 @@ uber::config::event_locations:
   arcade_tournaments_1: "Arcade (Tournaments 1)"
   arcade_tournaments_2: "Arcade (Tournaments 2)"
   arcade_tournaments_3: "Arcade (Tournaments 3)"
+  arcade_tournaments_5: "Arcade (Tournaments 4)"
   arcade_tournaments_4: "Arcade (Pinball)"
   lan_1: "LAN 1"
   lan_2: "LAN 2"
