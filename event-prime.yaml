@@ -63,10 +63,11 @@ uber::config::dealer_payment_due: '2016-12-15'        # dealers must pay by this
 
 uber::config::max_badge_sales: 20000
 
-uber::plugin_panels::hide_schedule: 'True'
+uber::plugin_panels::hide_schedule: false
 
 uber::plugin_panels::panel_app_deadline: '2016-10-31 20'
 uber::plugin_panels::expected_response: 'December 2016'
+uber::plugin_panels::alt_schedule_url: 'https://guidebook.com/guide/85396/schedule'
 
 uber::config::at_the_con: 'False'
 uber::config::post_con: 'False'
@@ -150,6 +151,8 @@ uber::config::badge_types:
     range_end: 44999
 
 uber::config::initial_attendee: 50    # badge price
+uber::config::one_days_enabled: false
+uber::config::presell_one_days: false
 uber::config::dealer_badge_price: 35
 uber::config::max_dealers: 20
 uber::config::default_table_price: 350
