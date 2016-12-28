@@ -1,2 +1,3 @@
 ---
-uber::config::prereg_open: '1999-09-09'  # fake prereg open early on dev boxes
+placeholder_needed____feel_free_to_remove_this: 'you can remove this once anything is else is added to the file'
+# uber::config::prereg_open: '1999-09-09'  # fake prereg open early on dev boxes
