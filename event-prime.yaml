@@ -127,7 +127,7 @@ uber::config::donations_enabled: true
 
 uber::config::extra_ribbon_types:
   band: "RockStar"
-  over_13: "Between 13 and 18"
+  under_13: "Under 13"
 
 uber::config::badge_types:
   staff_badge:
