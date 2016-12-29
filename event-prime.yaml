@@ -186,26 +186,26 @@ uber::config::shift_custom_badges: true
 uber::config::job_interests:
   anything: "Anything"
   arcade: "Arcade"
-  challenges: "Challenges Booth"
+ # challenges: "Challenges Booth" (Not a thing for M2017)
   charity: "Charity"
-  chipspace: "Chipspace"
+ # chipspace: "Chipspace" (Has no open Shift hours for M2017)
   concert: "Main Theater Operations"
   console: "Consoles"
-  film_fest: "Film Festival"
+  film_fest: "Film Festival" 
   indie_games: "Indie Showcase"
-  shedspace: "Jam Clinic"
+ # shedspace: "Jam Clinic" (Has no open Shift hours for M2017)
   jamspace: "Jam Space"
   lan: "LAN"
-  larp: "LARP"
+ # larp: "LARP" (Has no open Shift hours for M2017)
   museum: "Museum"
-  panels: "Panels"
+ # panels: "Panels" (Panels has all the people they need for M2017)
   regdesk: "Regdesk"
   security: "Security"
   food_prep: "Staff Suite"
   staff_support: "Staff Support"
   tabletop: "Tabletop"
   tech_ops: "Tech Ops"
-  tea_room: "Tea Room"
+ # tea_room: "Tea Room" (Tea Room wasn't meant for general volunteers shifts, and it's full for M2017)
   other: "Other"
 
 uber::config::job_locations:
