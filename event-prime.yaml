@@ -69,7 +69,7 @@ uber::plugin_panels::panel_app_deadline: '2016-10-31 20'
 uber::plugin_panels::expected_response: 'December 2016'
 uber::plugin_panels::alt_schedule_url: 'https://guidebook.com/guide/85396/schedule'
 
-uber::config::at_the_con: 'False'
+uber::config::at_the_con: 'True'
 uber::config::post_con: 'False'
 
 uber::config::donation_tier:
