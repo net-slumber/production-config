@@ -6,10 +6,10 @@ uber::config::url_base: 'https://super2017.uber.magfest.org/uber'
 # database replication
 # ----------------------
 
-classes:
-- uber::db_replication_master
+#classes:
+#- uber::db_replication_master
 
-uber::db::replication_mode:                         master
+#uber::db::replication_mode:                         master
 # uber::db_replication_master::replication_password:  [PASSWORD]   # this is set in the mcp secret settings
-uber::db_replication_master::allow_to_hosts:
-- super2017.uber.magfest.org
+#uber::db_replication_master::allow_to_hosts:
+#- super2017.uber.magfest.org
