@@ -23,7 +23,7 @@ uber::config::priority_plugins: "uber, panels, bands"
 
 # event settings
 uber::config::event_name: 'MAGFest Laboratories'
-uber::config::year: 2016
+uber::config::year: 2017
 
 uber::config::event_venue: 'The Hilton Alexandria Mark Center'
 uber::config::event_venue_address: '5000 Seminary Rd, Alexandria, VA 22311'
@@ -31,30 +31,30 @@ uber::config::event_venue_address: '5000 Seminary Rd, Alexandria, VA 22311'
 uber::config::groups_enabled: 'True'
 uber::config::group_discount: 5,
 
-uber::config::epoch: '2016-09-09 08'
-uber::config::eschaton: '2016-09-11 18'
+uber::config::epoch: '2017-09-01 08'
+uber::config::eschaton: '2017-09-03 18'
 
-uber::config::prereg_open: '2016-06-02'
-uber::config::prereg_takedown: '2016-09-08'
-uber::config::group_prereg_takedown: '2016-09-08'
-uber::config::uber_takedown: '2016-09-11'
+uber::config::prereg_open: '2017-06-02'
+uber::config::prereg_takedown: '2017-08-31'
+uber::config::group_prereg_takedown: '2017-08-25'
+uber::config::uber_takedown: '2017-09-01'
 
-uber::config::placeholder_deadline: '2016-09-09'
-uber::config::supporter_deadline: '2016-08-16'
-uber::config::room_deadline: '2016-08-19'
-uber::config::shirt_deadline: '2016-08-20'
-uber::config::printed_badge_deadline: '2016-08-12'
-uber::config::shifts_created: '2016-08-06'
+uber::config::placeholder_deadline: '2017-08-28'
+uber::config::supporter_deadline: '2017-08-05'
+uber::config::room_deadline: '2017-08-10'
+uber::config::shirt_deadline: '2017-08-11'
+uber::config::printed_badge_deadline: '2017-08-05'
+uber::config::shifts_created: '2017-08-06' # CHANGE to whatever date you import shifts
 
-uber::config::dealer_reg_start: '2016-07-07'       # dealer reg not allowed before this date
-uber::config::dealer_reg_deadline: '2016-08-02 03'    # after this date, applications are auto-waitlisted
-uber::config::dealer_reg_shutdown: '2016-08-07'       # after this date, no new applications allowed
-uber::config::dealer_payment_due: '2016-09-01'        # dealers must pay by this date
+uber::config::dealer_reg_start: '2017-07-01'          # dealer reg not allowed before this date
+uber::config::dealer_reg_deadline: '2017-07-15 03'    # after this date, applications are auto-waitlisted
+uber::config::dealer_reg_shutdown: '2017-07-20'       # after this date, no new applications allowed
+uber::config::dealer_payment_due: '2017-08-15'        # dealers must pay by this date
 
 uber::config::max_badge_sales: 2000
 
-uber::config::at_the_con: 'False'   # WHEN SETTING THIS BACK TO FALSE, MAKE SURE TO SET post_con=TRUE
-uber::config::post_con: 'True'
+uber::config::at_the_con: 'False'   # WHEN SETTING THIS FROM TRUE TO FALSE, MAKE SURE TO SET post_con=TRUE
+uber::config::post_con: 'False'
 
 uber::config::out_of_shirts: 'False'
 
@@ -112,7 +112,7 @@ uber::config::badge_prices:
     Saturday: 30
     Sunday: 20
   attendee:
-    '2016-09-09': 50
+    '2017-09-01': 50
 
 uber::config::shift_custom_badges: false
 
@@ -201,58 +201,58 @@ uber::config::volunteer_checklist:
   4: 'hotel_requests/hotel_item.html'
   5: 'signups/shifts_item.html'
 
-# TODO: changeme: these are the same forms as magprime 2016 (last year)
+# TODO: changeme: these are last year's forms
 uber::plugin_magfest::treasury_dept_checklist_form_url:   "https://docs.google.com/spreadsheets/d/1v-jZ7NPIgpR0-wsfZFOTKJJbKDUrd-xVIgf0mTTbjtM/edit#gid=799868163"
 uber::plugin_magfest::techops_dept_checklist_form_url:    "https://docs.google.com/forms/d/e/1FAIpQLSeDwhKy5-awt2zZT63y61qKPhaJdbYVNuQDhK0yLHUFsrgYdg/viewform?c=0&w=1"
 
 uber::config::dept_head_checklist:
   creating_shifts:
-    deadline: "2016-08-08"
+    deadline: "2017-08-01"
     description: "STOPS is happy to assist you in creating shifts, if you aren't making any changes, we can use the shifts from MAGClassic.  Please let us know if you need assistance with this step or what changes you have."
     path: "/jobs/index?location={department}"
   assigned_volunteers:
     name: "Volunteers Assigned to Your Department"
-    deadline: "2016-08-08"
+    deadline: "2017-08-01"
     description: "Check all of the volunteers currently assigned to your department to make sure no one is missing AND that no one is there who shouldn't be."
     path: "/jobs/staffers?location={department}"
   treasury:
     name: "MPoint Needs"
-    deadline: "2016-08-08"
+    deadline: "2017-08-01"
     description: "Tell us whether you need any mpoints for your department."
     path: "/magfest_dept_checklist/treasury"
   allotments:
     name: "Treasury Information"
-    deadline: "2016-08-08"
+    deadline: "2017-08-01"
     description: "If you need cash and/or mpoints, tell us your department schedule and your specific cash needs."
     path: "/magfest_dept_checklist/allotments"
   hotel_eligible:
     name: "Staffers Requesting Hotel Space"
-    deadline: "2016-08-12"
+    deadline: "2017-08-05"
     description: "Double check that everyone in your department who you know needs hotel space has requested it."
     path: "/hotel/index?department={department}"
   tech_requirements:
-    deadline: "2016-08-11"
+    deadline: "2017-08-05"
     description: "What do you need in terms of laptops, projectors, cables, internet access, etc?"
     path: "/magfest_dept_checklist/tech_requirements"
   approve_setup_teardown:
     name: "Approve/Decline Requests to Help With Setup/Teardown"
-    deadline: "2016-08-26"
+    deadline: "2017-08-20"
     description: "An overwhelming majority of staffers want to work setup and teardown shifts rather than work during the event itself, so we have far more offers than we have need for.  Since this affects what hotel nights staffers get, please approve and decline requests for this for people in your department."
     path: "/hotel/requests?department={department}"
   placeholders:
     name: "Checking Placeholder Registrations"
-    deadline: "2016-08-31"
+    deadline: "2017-08-25"
     description: "We create placeholder registrations for volunteers and ask them to fill out the rest of their information and also confirm that they'll be coming.  We need our department heads to review the unclaimed badges for their departments to check for any essential volunteers who haven't claimed their badges."
     path: "/registration/placeholders?department={department}"
   printed_signs:
-    deadline: "2016-08-31"
+    deadline: "2017-08-25"
     description: "Other than a sign for your area, what printed signs/banners/forms do you need?"
   office_supplies:
-    deadline: "2016-09-06"
+    deadline: "2017-08-15"
     description: "Do you need any paper, pens, sharpies, tripods, whiteboards, scissors, staplers, etc?"
   postcon_hours:
     name: "(After the Event) Marking and Rating Shifts"
-    deadline: "2016-09-18"
+    deadline: "2017-09-06"
     description: "After the weekend is over, we'll want all department heads to ensure that their volunteers had their shifts marked and rated."
     path: "/jobs/signups?location=59983785"
 
@@ -262,16 +262,16 @@ uber::plugin_panels::hide_schedule: false
 uber::plugin_bands::band_email:           'MAGLabs Music Department <labs-music@magfest.org>'
 uber::plugin_bands::band_email_signature: '- MAGLabs Music Department'
 
-uber::plugin_bands::auction_start:            '2016-09-11 11' # TODO: verify. likely.
+uber::plugin_bands::auction_start:            '2017-09-03 11' # TODO: verify. likely.
 
-uber::plugin_bands::band_panel_deadline:      '2016-08-01 08'
-uber::plugin_bands::band_bio_deadline:        '2016-07-01 08'
-uber::plugin_bands::band_agreement_deadline:  '2016-06-25 08'
-uber::plugin_bands::band_w9_deadline:         '2016-07-25 08'
-uber::plugin_bands::band_merch_deadline:      '2016-08-01 08'
-uber::plugin_bands::band_charity_deadline:    '2016-09-05 08'
-uber::plugin_bands::band_badge_deadline:      '2016-08-10 08'
-uber::plugin_bands::stage_agreement_deadline: '2016-08-15 08'
+uber::plugin_bands::band_panel_deadline:      '2017-08-01 08'
+uber::plugin_bands::band_bio_deadline:        '2017-07-01 08'
+uber::plugin_bands::band_agreement_deadline:  '2017-06-25 08'
+uber::plugin_bands::band_w9_deadline:         '2017-07-25 08'
+uber::plugin_bands::band_merch_deadline:      '2017-08-01 08'
+uber::plugin_bands::band_charity_deadline:    '2017-08-24 08'
+uber::plugin_bands::band_badge_deadline:      '2017-08-10 08'
+uber::plugin_bands::stage_agreement_deadline: '2017-08-15 08'
 
 uber::plugin_bands::require_dedicated_band_table_presence: false
 
