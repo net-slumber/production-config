@@ -19,4 +19,4 @@ uber::config::prereg_open: '2016-12-04'
 
 # uber::config::at_the_con: True
 
-test_only_ignore_this: True
+# test_only_ignore_this: True

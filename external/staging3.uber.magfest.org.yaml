@@ -1,11 +1,15 @@
 ---
 
 # YAML files really don't like it when you don't include anything.  annoying.  put this in here to make it happy.
-placeholder_only: 'do not remove this line if there is nothing else in the config file'
+# placeholder_only: 'do not remove this line if there is nothing else in the config file'
 
 # fake at-the-con mode to test on-site reg functionality
 # uber::config::at_the_con: 'True'
 
+
+# open prereg early on this particular server
+# so we can test before prereg really opens
+uber::config::prereg_open: '2017-02-12'
 
 # fake opening these early, diable when actually open
 # uber::plugin_mivs::round_one_deadline:    "2016-09-12"
