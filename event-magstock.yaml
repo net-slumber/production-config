@@ -25,6 +25,8 @@ uber::config::year: 7
 uber::config::event_venue: 'Small Country Campground'
 uber::config::event_venue_address: '4400 Byrd Mill Road, Louisa, VA 23093'
 
+uber::config::use_checkin_barcode: False
+
 uber::config::groups_enabled: 'False'
 uber::config::kiosk_cc_enabled: True
 
