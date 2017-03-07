@@ -8,9 +8,6 @@ classes:
 - uber::plugin_magstock
 
 uber::plugins::extra_plugins:
-  magstock:
-    git_repo: 'https://github.com/magfest/magstock'
-    git_branch: 'master'
   reports:
     git_repo: 'https://github.com/magfest/reports'
     git_branch: 'master'
