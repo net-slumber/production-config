@@ -5,6 +5,7 @@ classes:
 - uber::plugin_panels
 - uber::plugin_bands
 - uber::plugin_magfest
+- uber::plugin_magstock
 
 uber::plugins::extra_plugins:
   magstock:
@@ -83,7 +84,7 @@ uber::config::badge_prices:
     '2017-06-16': 70
 
 uber::config::job_interests:
-#  cat_herding: "Cat_herding" - Not being usedas an option for general, to be assigned by Admin team
+#  cat_herding: "Cat_herding" - Not being used as an option for general, to be assigned by Admin team
   food: "Food"
   misc: "General Support"
   music: "Music"
@@ -105,29 +106,29 @@ uber::config::event_locations:
   events: "Events"
   slip-n-slide: "Slip -N- Slide"
 
-uber::config::noise_levels:
+uber::plugin_magstock::noise_levels:
   quiet:   "As quiet as possible at night"
   conversational: "I can sleep when people talk"
   normal:  "I can sleep through reasonable levels of noise"
   noisy:   "While others sleep, I PARTY!"
   WUAAAGAAAAHHH: "I can't get enough WUAAAGAAAHHH in my life"
 
-uber::config::shirt_colors:
-  no_shirt:     "No shirt"
+uber::plugin_magstock::shirt_colors:
+  no_shirt_color:     "No shirt"
   black_shirt:  "Black Shirt"
   white_shirt:  "White Shirt (for tie-dyeing later)"
 
-uber::config::site_types:
+uber::plugin_magstock::site_types:
   primitive:  "Primitive - NO ELECTRIC OR WATER (but you get a button)"
   normal:     "Normal - has electric and water hookups"
 
-uber::config::camping_types:
+uber::plugin_magstock::camping_types:
   small_tent:  "Small Tent (6 or fewer)"
   large_tent:  "Large Tent (more than 6)"
   car:         "Sleeping in car"
   rv:          "RV or other larger vehicle"
 
-uber::config::coming_as_types:
+uber::plugin_magstock::coming_as_types:
   tent_leader:    "I am the Tent Leader"
   tent_follower:  "I'm not the one coordinating my group"
   alone:          "I'm coming alone"
@@ -136,8 +137,8 @@ uber::config::coming_as_types:
 # number of people allowed to buy meals.
 # this number does NOT include people who get free meals automatically like: staff badges, performers, and their +1s
 # the amount of meals we need to serve may end up ~40 higher than this number.
-uber::config::food_stock: 150       # only affects MAGSTOCK instances
-uber::config::food_price: 25        # only affects MAGSTOCK instances
+uber::plugin_magstock::food_stock: 150
+uber::plugin_magstock::food_price: 25
 
 uber::config::supporter_stock: 50
 uber::config::supporter_level: 50
