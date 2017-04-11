@@ -152,7 +152,6 @@ uber::config::job_interests:
   lan: "LAN"
   tournaments: "Tournaments"
   jamspace: "Jamspace"
-  staff_suite: "Staff Suite"
   
 uber::config::job_locations:
   console: "Consoles"
@@ -167,7 +166,6 @@ uber::config::job_locations:
   techops: "Tech Ops / AV"
   lan: "LAN"
   jamspace: "Jamspace"
-  staff_suite: "Staff Suite"
   marketplace: "Marketplace"
   stops: "Stops"
   fest_ops: "Guest"
@@ -221,6 +219,7 @@ uber::config::interest_list:
 uber::plugin_hotel::hotel_req_hours: 24
 
 uber::config::volunteer_checklist:
+  3: ''
   4: 'hotel_requests/hotel_item.html'
   5: 'signups/shifts_item.html'
 
