@@ -152,6 +152,7 @@ uber::config::job_interests:
   lan: "LAN"
   tournaments: "Tournaments"
   jamspace: "Jamspace"
+  makerspace: "Makerspace"
   
 uber::config::job_locations:
   console: "Consoles"
@@ -180,7 +181,7 @@ uber::config::job_locations:
   tea_room: "Tea Room"
   treasury: "Treasury"
   concert_security: "Concert Security"
-  makerspace: "Maker Space"
+  makerspace: "Makerspace"
 
 uber::config::shiftless_depts: "dorsai, bridge_simulator, marketplace"
 
@@ -197,7 +198,7 @@ uber::config::event_locations:
   registration: "Registration"
   tabletop: "Tabletop"
   tabletop_ccg: "Tabletop (CCG)"
-  makerspace: "Maker Space Workshops"
+  makerspace: "Makerspace Workshops"
 
 # entries here must also exist in event_locations
 uber::plugin_panels::panel_rooms: "panels_1,panels_2"
@@ -215,6 +216,7 @@ uber::config::interest_list:
   tabletop: "Tabletop games"
   dealers: "Dealers"
   tournaments: "Tournaments"
+  makerspace: "Makerspace"
 
 uber::plugin_hotel::hotel_req_hours: 24
 
