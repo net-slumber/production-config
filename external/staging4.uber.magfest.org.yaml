@@ -1,23 +1,12 @@
 ---
 
-# switch this staging server to pull all plugin config via the dom_cleanup_css_js_use_jinja branch for testing
-# this is all a little hacky because it duplicates code from common.yaml, but should work fine.
+# YAML files really don't like it when you don't include anything.  annoying.  put this in here to make it happy.
+# placeholder_only: 'do not remove this line if there is nothing else in the config file'
 
-uber::plugins::sideboard_plugins:
-  uber:
-    git_repo: 'https://github.com/magfest/ubersystem'
-    git_branch: 'dom_cleanup_css_js_use_jinja'
-  uber_analytics:
-    git_repo: 'https://github.com/magfest/uber_analytics'
-    git_branch: 'dom_cleanup_css_js_use_jinja'
+# Set to 'True' to fake at-the-con mode to test on-site reg functionality
+uber::config::at_the_con: 'False'
 
-uber::plugins::extra_plugins:
-  reports:
-    git_repo: 'https://github.com/magfest/reports'
-    git_branch: 'dom_cleanup_css_js_use_jinja'
 
-uber::plugin_barcode::git_branch:  'dom_cleanup_css_js_use_jinja'
-uber::plugin_panels::git_branch:   'dom_cleanup_css_js_use_jinja'
-uber::plugin_bands::git_branch:    'dom_cleanup_css_js_use_jinja'
-uber::plugin_magfest::git_branch:  'dom_cleanup_css_js_use_jinja'
-uber::plugin_magstock::git_branch: 'dom_cleanup_css_js_use_jinja'
+# open prereg early on this particular server
+# so we can test before prereg really opens
+uber::config::prereg_open: '2017-05-01'
