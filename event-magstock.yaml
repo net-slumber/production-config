@@ -77,12 +77,14 @@ uber::config::badge_types:
 
 uber::config::preassigned_badge_types: ','
 
-uber::config::initial_attendee: 40    # badge price
+uber::config::initial_attendee: 50    # badge price
 uber::config::one_days_enabled: false
 uber::config::badge_prices:
   attendee:
-    '2017-06-01': 60
-    '2017-06-16': 70
+     '2017-05-29': 40
+     '2017-05-30': 50
+     '2017-06-01': 60
+     '2017-06-08': 70
 
 uber::config::job_interests:
 #  cat_herding: "Cat_herding" - Not being used as an option for general, to be assigned by Admin team
