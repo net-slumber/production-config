@@ -82,8 +82,9 @@ uber::config::donation_tier:
   T-Shirt Bundle: SHIRT_LEVEL
   I <3 Magfest: 50
   Supporter Package: SUPPORTER_LEVEL
-  Vampire: 200
-  #### enable the stuff below later in the year ####
+  #### If we enable any additional tiers, we'll also have to tweak the layout.       #### 
+  #### In static/theme/prereg.css, change "flex-wrap: nowrap;" to "flex-wrap: wrap;" ####
+  # Vampire: 200
   # Wall Meat: 500
   # Disembodied Department Head: 1000
 
@@ -109,11 +110,11 @@ uber::config::donation_tier_descriptions:
     icon: "../static/icons/star.png"
     description: "Personalized Keepsake |Swag Bag"
     link: "../static_views/keepsakebadge.html|../static_views/swagbag.html"
-  vampire:
-    name: "Vampire"
-    icon: "../static/icons/menace.png"
-    description: "More Cowbell|Miserable Pile of Secrets"
-    link: "../static_views/morecowbell.html|../static_views/secrets.html"
+  #vampire:
+  #  name: "Vampire"
+  #  icon: "../static/icons/menace.png"
+  #  description: "More Cowbell|Miserable Pile of Secrets"
+  #  link: "../static_views/morecowbell.html|../static_views/secrets.html"
 
 uber::config::badge_enums:
   attendee_badge:         "Attendee"
