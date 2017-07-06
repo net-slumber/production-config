@@ -101,3 +101,4 @@ uber::firewall::blacklisted_ips:
  - 91.224.160.184   # +++++++  end of SSH bots trying to guess passwords
  - 38.105.201.194   # guy trying to use sqlmap to do sql injections
  - 199.180.114.192  # spamming junk into the prereg form fields
+ - 37.147.108.24    # spamming junk into the prereg form fields
