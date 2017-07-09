@@ -187,6 +187,7 @@ uber::config::job_locations:
   treasury: "Treasury"
   concert_security: "Concert Security"
   makerspace: "Makerspace"
+  museum: "Computer Museum"
 
 uber::config::shiftless_depts: "dorsai, bridge_simulator, marketplace"
 
