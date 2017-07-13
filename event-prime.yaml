@@ -166,6 +166,7 @@ uber::config::one_days_enabled: false
 uber::config::presell_one_days: false
 uber::config::dealer_badge_price: 35
 uber::config::max_dealers: 20
+uber::config::max_dealer_apps: 500
 uber::config::default_table_price: 350
 
 uber::config::table_prices:
