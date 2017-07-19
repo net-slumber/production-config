@@ -41,6 +41,8 @@ uber::config::event_venue: 'The Hyatt Regency Santa Clara'
 uber::config::event_venue_address: '5101 Great America Pkwy, Santa Clara, CA 95054'
 uber::config::event_timezone: 'US/Pacific'
 
+uber::config::guest_sig: ' - Ashley Watts,\nMAGWest Guest Coordinator'
+
 uber::config::use_checkin_barcode: 'True'
 uber::config::badge_promo_codes_enabled: True
 
