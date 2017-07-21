@@ -54,6 +54,19 @@ uber::config::food_restriction:
     nuts: "No nuts"
     vegan: "Vegetarian/Vegan"
 
+uber::config::dealer_wares:
+    vgames: "Video Games"
+    tshirts: "T-shirts"
+    figures: "Figures"
+    general: "General Merchandise"
+    prints: "Prints"
+    plushes: "Plushes"
+    lanyards: "Lanyards/Keychains"
+    perler: "Perler Beads"
+    jewelry: "Jewelry"
+    bath: "Bath Products"
+    handmade: "General Handmade"
+
 # note: these are somewhat public so, make sure anything you put in here
 # you are cool sharing with the public.
 uber::firewall::blacklisted_ips:
