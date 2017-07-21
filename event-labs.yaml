@@ -315,7 +315,7 @@ uber::plugin_bands::band_merch_enums:
 #   rock_island:  "Rock Island" # enable rock island
 
 uber::config::regdesk_sig: |
-    - Nikki Salapa,
+    - Elyse Krumbein,
     MAGFest Laboratories Registration Dept Head
 
 uber::config::marketplace_email: "MAGFest Laboratories Marketplace <labs-marketplace@magfest.org>"
