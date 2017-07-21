@@ -97,7 +97,7 @@ uber::config::badge_enums:
 
 # prereg form UI options
 uber::config::donations_enabled: true
-uber::config::consent_form_url: ""
+uber::config::consent_form_url: "https://labs.magfest.org/sites/default/files/MAGLabsParentalConsentForm.pdf"
 
 uber::config::badge_types:
   staff_badge:
