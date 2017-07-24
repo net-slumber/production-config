@@ -47,11 +47,11 @@ uber::config::use_checkin_barcode: 'True'
 # checkbox will be available
 uber::config::prereg_request_hotel_info_duration: 24
 
-uber::config::epoch: '2018-01-05 08'
-uber::config::eschaton: '2018-01-08 18'
+uber::config::epoch: '2018-01-04 08'
+uber::config::eschaton: '2018-01-07 18'
 
 uber::config::hide_prereg_open_date: 'True'
-uber::config::prereg_open: '2017-08-11 16'
+uber::config::prereg_open: '2017-08-01 15'
 uber::config::prereg_takedown: '2018-01-04'
 uber::config::group_prereg_takedown: '2018-01-04'
 uber::config::uber_takedown: '2018-01-07'
@@ -63,10 +63,10 @@ uber::config::printed_badge_deadline: '2017-11-22'
 
 uber::config::shifts_created: '2017-10-26'
 
-uber::config::dealer_reg_start: '2017-08-19 20'       # dealer reg not allowed before this date
-uber::config::dealer_reg_deadline: '2017-08-21 20'    # after this date, applications are auto-waitlisted
-uber::config::dealer_reg_shutdown: '2017-08-21 23'       # after this date, no new applications allowed
-uber::config::dealer_payment_due: '2017-12-15'        # dealers must pay by this date
+uber::config::dealer_reg_start: '2017-07-30 15'     # dealer reg not allowed before this date
+uber::config::dealer_reg_deadline: '2017-08-01 15'  # after this date, applications are auto-waitlisted
+uber::config::dealer_reg_shutdown: '2017-08-21 23'  # after this date, no new applications allowed
+uber::config::dealer_payment_due: '2017-12-15'      # dealers must pay by this date
 
 uber::config::badge_price_waived: '2018-01-08 12'
 
@@ -84,11 +84,10 @@ uber::config::post_con: 'False'
 uber::config::donation_tier:
   No thanks: 0
   T-Shirt Bundle: SHIRT_LEVEL
-  I <3 Magfest: 50
-  Supporter Package: SUPPORTER_LEVEL
+  Supporter: SUPPORTER_LEVEL
+  Super Star: 200
   #### If we enable any additional tiers, we'll also have to tweak the layout.       ####
   #### In static/theme/prereg.css, change "flex-wrap: nowrap;" to "flex-wrap: wrap;" ####
-  # Vampire: 200
   # Wall Meat: 500
   # Disembodied Department Head: 1000
 
@@ -102,23 +101,18 @@ uber::config::donation_tier_descriptions:
   shirt:
     name: "T-Shirt Bundle"
     icon: "../static/icons/iconshirt.png"
-    description: "Ribbon|T-Shirt"
-    link: "../static_views/ribbon.html|../static_views/tshirt.html"
-  i_heart_magfest:
-    name: "I <3 Magfest"
-    icon: "../static/icons/heart-necklace.png"
-    description: "Small Cowbell|Heart Enamel Necklace"
-    link: "../static_views/cowbell.html|../static_views/pendant.html"
-  supporter_package:
-    name: "Supporter Package"
-    icon: "../static/icons/star.png"
-    description: "Personalized Keepsake |Swag Bag"
-    link: "../static_views/keepsakebadge.html|../static_views/swagbag.html"
-  #vampire:
-  #  name: "Vampire"
-  #  icon: "../static/icons/menace.png"
-  #  description: "More Cowbell|Miserable Pile of Secrets"
-  #  link: "../static_views/morecowbell.html|../static_views/secrets.html"
+    description: "Ribbon|T-Shirt|Event Pin"
+    link: "../static_views/ribbon.html|../static_views/tshirt.html|../static_views/event_pin.html"
+  supporter:
+    name: "Supporter"
+    icon: "../static/icons/supporter.png"
+    description: "Super Swag Bag|Swadge"
+    link: "../static_views/super_swag_bag.html|../static_views/swadge.html"
+  super_star:
+    name: "Super Star"
+    icon: "../static/icons/super_star.png"
+    description: "Star Rod Wand|Star Umbrella|Invitation"
+    link: "../static_views/star_rod_wand.html|../static_views/star_umbrella.html|../static_views/invitation.html"
 
 uber::config::badge_enums:
   attendee_badge:         "Attendee"
@@ -275,9 +269,9 @@ uber::config::job_locations:
 uber::config::shiftless_depts: "dorsai,marketplace,simulations,merch_contractor,con_ops"
 #Con/Fest Ops primarily used for Outside Contractors - Signage, Light/Sound production, these are groups we pay but still want in the system.
 
-uber::config::shirt_level: 20
-uber::config::supporter_level: 80
-uber::config::season_level: 160
+uber::config::shirt_level: 25
+uber::config::supporter_level: 75
+uber::config::season_level: 200
 
 uber::config::shirt_sizes:
   no shirt: 0               # MUST BE 'no shirt' all lowercase or things break
