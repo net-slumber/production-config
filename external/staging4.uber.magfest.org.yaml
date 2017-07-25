@@ -10,3 +10,9 @@ uber::config::at_the_con: 'False'
 # open prereg early on this particular server
 # so we can test before prereg really opens
 uber::config::prereg_open: '2017-05-01'
+
+uber::config::dealer_reg_start: '2017-07-24 15'
+
+# The number of hours after prereg_open that the "Request Hotel Booking Info"
+# checkbox will be available
+uber::config::prereg_request_hotel_info_duration: 2400
