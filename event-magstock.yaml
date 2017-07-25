@@ -21,6 +21,7 @@ uber::config::year: 7
 
 uber::config::event_venue: 'Small Country Campground'
 uber::config::event_venue_address: '4400 Byrd Mill Road, Louisa, VA 23093'
+uber::config::prereg_faq_url: 'http://super.magfest.org/magstockfaq/'
 
 uber::config::use_checkin_barcode: False
 
