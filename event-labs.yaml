@@ -27,6 +27,7 @@ uber::config::year: 2017
 
 uber::config::event_venue: 'The Hilton Alexandria Mark Center'
 uber::config::event_venue_address: '5000 Seminary Rd, Alexandria, VA 22311'
+uber::config::prereg_faq_url: 'https://labs.magfest.org/frequently-asked-questions'
 
 uber::config::use_checkin_barcode: 'True'
 
