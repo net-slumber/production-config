@@ -30,6 +30,7 @@ uber::config::event_venue_address: '5000 Seminary Rd, Alexandria, VA 22311'
 uber::config::prereg_faq_url: 'https://labs.magfest.org/frequently-asked-questions'
 
 uber::config::use_checkin_barcode: 'True'
+uber::config::collect_extra_donation: True
 
 uber::config::groups_enabled: 'True'
 uber::config::group_discount: 5,
