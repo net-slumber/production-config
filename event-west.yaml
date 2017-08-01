@@ -308,6 +308,7 @@ uber::config::event_locations:
   tabletop_tournaments: "Tabletop (Tournaments)"
   tabletop_ccg: "Tabletop CCG (Unknown)"
   concerts: "Concerts (Convention Ballroom)"
+  jamspace: "Jam Space (Cypress)"
 
 uber::config::volunteer_checklist:
   3: ''
