@@ -76,6 +76,13 @@ uber::config::dealer_reg_deadline: '2017-08-01 12'  # after this date, applicati
 uber::config::dealer_reg_shutdown: '2017-08-02 12'   # after this date, no new applications allowed
 uber::config::dealer_payment_due: '2017-12-15'      # dealers must pay by this date
 
+# how many staff uniform shirts each staffer gets
+uber::config::shirts_per_staffer: 2
+
+# at supermag, people with staff badges don't get a swag tshirt.
+# people who are volunteers and NOT staff badges do, however.
+uber::config::staff_eligible_for_swag_shirt: False
+
 uber::config::badge_price_waived: '2018-01-07 12'
 
 uber::config::max_badge_sales: 20000
