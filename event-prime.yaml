@@ -223,7 +223,7 @@ uber::config::job_interests:
   jamspace: "Jam Space"
   lan: "LAN"
  # larp: "LARP" (Has no open Shift hours for M2018)
-  concert: "Main Theater Operations"
+ # concert: "Main Theater Operations"
   museum: "Museum"
   panels: "Panels"
   regdesk: "Registration"
