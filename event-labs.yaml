@@ -235,7 +235,7 @@ uber::config::volunteer_checklist:
   5: 'signups/shifts_item.html'
 
 # TODO: changeme: these are last year's forms
-uber::plugin_magfest::treasury_dept_checklist_form_url:   "https://docs.google.com/spreadsheets/d/1v-jZ7NPIgpR0-wsfZFOTKJJbKDUrd-xVIgf0mTTbjtM/edit#gid=799868163"
+uber::plugin_magfest::treasury_dept_checklist_form_url:   "https://docs.google.com/spreadsheets/d/1h8tkHJ5JjH7T0fwLnK-5-DifuEHBm4Wzkf20uonPUhA/edit#gid=316806961"
 uber::plugin_magfest::techops_dept_checklist_form_url:    "https://docs.google.com/forms/d/e/1FAIpQLSeDwhKy5-awt2zZT63y61qKPhaJdbYVNuQDhK0yLHUFsrgYdg/viewform?c=0&w=1"
 
 uber::config::dept_head_checklist:
@@ -250,7 +250,7 @@ uber::config::dept_head_checklist:
     path: "/jobs/staffers?location={department}"
   treasury:
     name: "MPoint Needs"
-    deadline: "2017-07-26"
+    deadline: "2017-08-29"
     description: "Tell us whether you need any mpoints for your department."
     path: "/magfest_dept_checklist/treasury"
   allotments:
