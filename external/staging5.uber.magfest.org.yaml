@@ -1,0 +1,19 @@
+---
+
+# MAGWEST 2017 onsite testing server
+
+uber::config::at_the_con: 'True'
+
+# classes:
+# - uber::db_replication_master
+
+# ----------------------
+# database replication
+# ----------------------
+
+# uber::db::replication_mode:                         master
+# uber::db_replication_master::replication_password:  test_h@ckme # testing only. for production, ONLY SET THIS IN SECRET SETTINGS
+# uber::db_replication_master::allow_to_hosts:
+ # - staging1.uber.magfest.org
+
+# ----------------------
