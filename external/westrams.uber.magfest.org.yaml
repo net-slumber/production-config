@@ -11,7 +11,7 @@ uber::config::send_emails: 'False'  # safety. enable when we bring up this serve
 # needed to allow our frontend nginx server to directly access the backend port via the VPN
 # TODO: would be better if we could just open up the firewall port to just ONE IP
 # TODO: also, this means whatever nginx server is serving up content needs to also mirror the same caching setup
-uber::firewall_allow_rules:open_backend_port: True
+uber::firewall_allow_rules::open_backend_port: True
 
 
 # ----------------------
