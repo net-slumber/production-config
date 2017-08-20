@@ -1,15 +1,21 @@
 ---
-# set this so that onsite emails from the onsite server have the correct base URL
-uber::config::url_base: 'https://super2017.uber.magfest.org/uber'
+# set this so that onsite emails sent from the onsite server have the correct base URL
+uber::config::url_base: 'https://super2018.uber.magfest.org/uber'
+
+uber::config::at_the_con: 'True'
+uber::config::post_con: 'False'
+
+uber::config::send_emails: 'False'  # safety. enable when we bring up this server for real. 8/20/17 -Dom
 
 # ----------------------
 # database replication
 # ----------------------
 
+# turn this stuff on when ready to move onsite
 #classes:
 #- uber::db_replication_master
 
 #uber::db::replication_mode:                         master
 # uber::db_replication_master::replication_password:  [PASSWORD]   # this is set in the mcp secret settings
 #uber::db_replication_master::allow_to_hosts:
-#- super2017.uber.magfest.org
+#- west2017.uber.magfest.org
