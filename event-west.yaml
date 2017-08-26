@@ -194,7 +194,7 @@ uber::config::job_interests:
   security: "Security"
 #  food_prep: "Staff Suite"
   staff_support: "Staff Support"
-#  tabletop: "Tabletop"
+  tabletop: "Tabletop"
   tech_ops: "Tech Ops"
 #  tea_room: "Tea Room"
   other: "Other"
@@ -240,7 +240,7 @@ uber::config::job_locations:
 #  simulations: "Simulations" # Artemis, Starship Horizons, Battle Pods
   staff_support: "Staff Support"
   stops: "Staffing Ops"
-#  tabletop: "Tabletop"
+  tabletop: "Tabletop"
 #  tabletop_rpg: "Tabletop (Pathfinder)"
 #  tabletop_ddal: "Tabletop (DDAL)"
 #  tabletop_ccg: "Tabletop (CCG)"
