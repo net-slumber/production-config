@@ -185,6 +185,7 @@ uber::config::dept_head_checklist:
     deadline: "2017-07-15"
     description: "After the weekend is over, we'll want all department heads to ensure that their volunteers had their shifts marked and rated."
     path: "/jobs/signups?location={department}"
+    email_post_con: True
 
 # unset panel rooms for magstock because magstock doesn't have any locations called "panels1", which causes errors
 uber::plugin_panels::panel_rooms: ","   # empty list

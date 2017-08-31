@@ -286,6 +286,7 @@ uber::config::dept_head_checklist:
     deadline: "2017-09-06"
     description: "After the weekend is over, we'll want all department heads to ensure that their volunteers had their shifts marked and rated."
     path: "/jobs/signups?location=59983785"
+    email_post_con: True
 
 # entries here must also exist in event_locations
 uber::plugin_panels::panel_rooms: "panels_1,panels_2"
