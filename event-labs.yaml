@@ -131,9 +131,9 @@ uber::config::table_prices:
 
 uber::config::badge_prices:
   single_day:
-    Friday: 30
-    Saturday: 30
-    Sunday: 20
+    Friday: 25
+    Saturday: 35
+    Sunday: 15
   attendee:
     '2017-06-01': 55
     '2017-09-01': 60
