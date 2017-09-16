@@ -197,11 +197,11 @@ uber::plugin_bands::band_email_signature: '- MAGStock Music Department'
 
 uber::plugin_bands::band_panel_deadline:      ''  # disabled for magstock
 uber::plugin_bands::band_bio_deadline:        '2017-04-20 20'
-uber::plugin_bands::band_agreement_deadline:  '2017-03-20 20'
-uber::plugin_bands::band_w9_deadline:         '2017-06-01 20'
+uber::plugin_bands::band_info_deadline:  '2017-03-20 20'
+uber::plugin_bands::band_taxes_deadline:         '2017-06-01 20'
 uber::plugin_bands::band_merch_deadline:      '2017-06-01 20'
 uber::plugin_bands::band_charity_deadline:    ''  # disabled for magstock
-uber::plugin_bands::band_badge_deadline:      '2017-06-01 20'
-uber::plugin_bands::stage_agreement_deadline: '2017-04-01 20'
+uber::plugin_bands::band_badges_deadline:      '2017-06-01 20'
+uber::plugin_bands::band_stage_plot_deadline: '2017-04-01 20'
 
 uber::plugin_bands::require_dedicated_band_table_presence: false
