@@ -3,7 +3,7 @@ classes:
 - roles::uber_server
 - uber::plugin_barcode
 - uber::plugin_panels
-- uber::plugin_bands
+- uber::plugin_guests
 - uber::plugin_magfest
 - uber::plugin_magstock
 
@@ -12,7 +12,7 @@ uber::plugins::extra_plugins:
     git_repo: 'https://github.com/magfest/reports'
     git_branch: 'master'
 
-uber::config::priority_plugins: "uber, panels, bands"
+uber::config::priority_plugins: "uber, panels, guests"
 
 uber::config::numbered_badges: 'False'
 
@@ -192,16 +192,16 @@ uber::plugin_panels::panel_rooms: ","   # empty list
 
 uber::plugin_panels::hide_schedule: true
 
-uber::plugin_bands::band_email:           'MAGStock Music Department <music@magstock.org>'
-uber::plugin_bands::band_email_signature: '- MAGStock Music Department'
+uber::plugin_guests::band_email:           'MAGStock Music Department <music@magstock.org>'
+uber::plugin_guests::band_email_signature: '- MAGStock Music Department'
 
-uber::plugin_bands::band_panel_deadline:      ''  # disabled for magstock
-uber::plugin_bands::band_bio_deadline:        '2017-04-20 20'
-uber::plugin_bands::band_info_deadline:  '2017-03-20 20'
-uber::plugin_bands::band_taxes_deadline:         '2017-06-01 20'
-uber::plugin_bands::band_merch_deadline:      '2017-06-01 20'
-uber::plugin_bands::band_charity_deadline:    ''  # disabled for magstock
-uber::plugin_bands::band_badges_deadline:      '2017-06-01 20'
-uber::plugin_bands::band_stage_plot_deadline: '2017-04-01 20'
+uber::plugin_guests::band_panel_deadline:      ''  # disabled for magstock
+uber::plugin_guests::band_bio_deadline:        '2017-04-20 20'
+uber::plugin_guests::band_info_deadline:  '2017-03-20 20'
+uber::plugin_guests::band_taxes_deadline:         '2017-06-01 20'
+uber::plugin_guests::band_merch_deadline:      '2017-06-01 20'
+uber::plugin_guests::band_charity_deadline:    ''  # disabled for magstock
+uber::plugin_guests::band_badges_deadline:      '2017-06-01 20'
+uber::plugin_guests::band_stage_plot_deadline: '2017-04-01 20'
 
-uber::plugin_bands::require_dedicated_band_table_presence: false
+uber::plugin_guests::require_dedicated_guest_table_presence: false
