@@ -304,12 +304,12 @@ uber::plugin_bands::auction_start:            '2017-09-03 11' # TODO: verify. li
 
 uber::plugin_bands::band_panel_deadline:      '2017-08-01 08'
 uber::plugin_bands::band_bio_deadline:        '2017-07-01 08'
-uber::plugin_bands::band_agreement_deadline:  '2017-06-25 08'
-uber::plugin_bands::band_w9_deadline:         '2017-07-25 08'
+uber::plugin_bands::band_info_deadline:  '2017-06-25 08'
+uber::plugin_bands::band_taxes_deadline:         '2017-07-25 08'
 uber::plugin_bands::band_merch_deadline:      '2017-08-01 08'
 uber::plugin_bands::band_charity_deadline:    '2017-08-24 08'
-uber::plugin_bands::band_badge_deadline:      '2017-08-10 08'
-uber::plugin_bands::stage_agreement_deadline: '2017-08-15 08'
+uber::plugin_bands::band_badges_deadline:      '2017-08-10 08'
+uber::plugin_bands::band_stage_plot_deadline: '2017-08-15 08'
 
 uber::plugin_bands::require_dedicated_band_table_presence: false
 
