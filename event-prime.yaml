@@ -80,7 +80,7 @@ uber::config::supporter_deadline: '2017-11-01'
 uber::config::shirt_deadline: '2017-12-01'
 uber::config::printed_badge_deadline: '2017-11-22'
 
-uber::config::shifts_created: '2017-10-26'
+uber::config::shifts_created: '2017-11-02'
 
 uber::config::dealer_reg_start: '2017-07-30 12'     # dealer reg not allowed before this date
 uber::config::dealer_reg_deadline: '2017-08-01 12'  # after this date, applications are auto-waitlisted
@@ -397,7 +397,7 @@ uber::plugin_magfest::techops_dept_checklist_form_url:    "http://techops.magfe.
 
 uber::config::dept_head_checklist:
   creating_shifts:
-    deadline: "2017-10-25"
+    deadline: "2017-11-01"
     description: "We have the ability to import shifts from MAGFest 2017 to MAGFest 2018, if you are only making minor changes and want assistance with this step, please let us know"
     path: "/jobs/index?location={department}"
   assigned_volunteers:
