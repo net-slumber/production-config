@@ -324,32 +324,32 @@ uber::config::dept_head_checklist:
   creating_shifts:
     deadline: "2017-05-25"
     description: "We have the ability to import shifts from MAGFest 2016 to MAGFest 2017, if you are only making minor changes and want assistance with this step, please let us know"
-    path: "/jobs/index?location={department}"
+    path: "/jobs/index?department_id={department_id}"
   assigned_volunteers:
     name: "Volunteers Assigned to Your Department"
     deadline: "2017-06-01"
     description: "Check all of the volunteers currently assigned to your department to make sure no one is missing AND that no one is there who shouldn't be."
-    path: "/jobs/staffers?location={department}"
+    path: "/jobs/staffers?department_id={department_id}"
   treasury:
     name: "MPoint Needs"
     deadline: "2017-08-23"
     description: "Tell us whether you need any mpoints for your department."
-    path: "/magfest_dept_checklist/treasury"
+    path: "/magfest_dept_checklist/treasury?department_id={department_id}"
   allotments:
     name: "Treasury Information"
     deadline: "2017-07-18"
     description: "If you need cash and/or mpoints, tell us your department schedule and your specific cash needs."
-    path: "/magfest_dept_checklist/allotments"
+    path: "/magfest_dept_checklist/allotments?department_id={department_id}"
   approve_setup_teardown:
     name: "Approve/Decline Additional Hotel Nights to Help With Setup/Teardown"
     deadline: "2017-08-01"
     description: "An overwhelming majority of staffers want to work setup and teardown shifts rather than work during the event itself, so we have far more offers than we have need for.  Since this affects what hotel nights staffers get, please approve and decline requests for this for people in your department."
-    path: "/hotel/requests?department={department}"
+    path: "/hotel/requests?department_id={department_id}"
   hotel_eligible:
     name: "Staffers Requesting Hotel Space"
     deadline: "2017-07-25"
     description: "Double check that everyone in your department who you know needs hotel space has requested it."
-    path: "/hotel/index?department={department}"
+    path: "/hotel/index?department_id={department_id}"
   printed_signs:
     deadline: "2017-07-25"
     description: "Other than a sign for your area, what printed signs/banners/forms do you need?"
@@ -363,17 +363,17 @@ uber::config::dept_head_checklist:
     name: "Checking Placeholder Registrations"
     deadline: "2017-07-24"
     description: "We create placeholder registrations for volunteers and ask them to fill out the rest of their information and also confirm that they'll be coming.  We need our department heads to review the unclaimed badges for their departments to check for any essential volunteers who haven't claimed their badges."
-    path: "/registration/placeholders?department={department}"
+    path: "/registration/placeholders?department_id={department_id}"
   tech_requirements:
     name: "Tech Requirements"
     deadline: "2017-07-29"
     description: "What do you need in terms of laptops, projectors, cables, internet access, etc?"
-    path: "/magfest_dept_checklist/tech_requirements"
+    path: "/magfest_dept_checklist/tech_requirements?department_id={department_id}"
   postcon_hours:
     name: "(After the Event) Marking and Rating Shifts"
     deadline: "2017-09-05"
     description: "After the weekend is over, we'll want all department heads to ensure that their volunteers had their shifts marked and rated."
-    path: "/jobs/signups?location=59983785"
+    path: "/jobs/signups?department_id={department_id}"
     email_post_con: True
 
 # Section for Signature Changes specific to event:
