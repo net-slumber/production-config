@@ -393,7 +393,7 @@ uber::config::event_locations:
   lobby_bar: "Belvedere Lobby Bar"
   jamspace: "Jamspace + Community Curated Stage (Eastern Shore 1,2,3)"
   jam_clinic: "Jam Clinic (Chesapeake A,B,C)"
-  vrzone: "VRZone (Magnolia 1,2)"
+  vrzone: "VRZone (Magnolia 2,3)"
 
 uber::config::volunteer_checklist:
   4: 'hotel_requests/hotel_item.html'
