@@ -38,7 +38,7 @@ uber::config::epoch: '2018-08-10 08'
 uber::config::eschaton: '2018-08-12 18'
 
 uber::config::hide_prereg_open_date: 'True'
-uber::config::prereg_open: '2018-02-14 15'
+uber::config::prereg_open: '2018-02-14 14'
 uber::config::prereg_takedown: '2018-08-09'
 uber::config::group_prereg_takedown: '2018-08-08'
 uber::config::uber_takedown: '2018-08-08'
