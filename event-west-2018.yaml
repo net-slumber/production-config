@@ -70,7 +70,7 @@ uber::config::donation_tier:
   No thanks: 0
   T-Shirt Bundle: SHIRT_LEVEL
   # I <3 Magfest: 50
-  Supporter Package: SUPPORTER_LEVEL
+  Senpai Package: SUPPORTER_LEVEL
   # Golden Bagel: 200
   #### enable the stuff below later in the year ####
   # Wall Meat: 500
