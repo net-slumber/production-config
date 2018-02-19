@@ -1,0 +1,3 @@
+---
+uber::config::prereg_open: '1999-09-09'  # fake prereg open early on dev boxes
+# uber::config::food_stock: 0 # set this to zero to test out when food cap is hit
