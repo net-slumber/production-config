@@ -17,6 +17,8 @@
 # so we can test before prereg really opens
 uber::config::prereg_open: '2016-12-04'
 
+uber::config::send_emails: True
+
 # uber::config::at_the_con: True
 
 # test_only_ignore_this: True
