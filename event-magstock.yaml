@@ -159,11 +159,11 @@ uber::config::interest_list:
 
 uber::config::hours_for_refund: 18
 
-regdesk_email_signature = '''MAGStock Team'''
-stops_email_signature = '''MAGStock Team'''
-marketplace_email_signature = '''MAGStock Team'''
-peglegs_email_signature = '''MAGStock Team'''
-guest_email_signature = '''MAGStock Team'''
+uber::config::regdesk_email_signature: 'MAGStock Team'
+uber::config::stops_email_signature: 'MAGStock Team'
+uber::config::marketplace_email_signature: 'MAGStock Team'
+uber::config::peglegs_email_signature: 'MAGStock Team'
+uber::config::guest_email_signature: 'MAGStock Team'
 
 
 uber::config::volunteer_checklist:
