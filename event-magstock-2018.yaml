@@ -42,7 +42,7 @@ uber::config::donation_tier:
  No thanks: 0
  T-Shirt Bundle: SHIRT_LEVEL
  Supporter Package: SUPPORTER_LEVEL
- Super Supporter: SEASON_LEVEL
+ Pioneer Package: SEASON_LEVEL
  
 # everything in here must match the "name" of something from donation_tier
 uber::config::donation_tier_descriptions:
