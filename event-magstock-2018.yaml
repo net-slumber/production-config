@@ -102,23 +102,28 @@ uber::config::badge_prices:
      '2018-06-01': 70
 
 uber::config::job_interests:
-  food: "Food"
-  misc: "General Support"
-  music: "Music"
+  general: "General Support"
   registration: "Registration"
-  activities: "Events"
+  food: "Food Prep"
+  events: "Events"
+  music: "Music Pavilion"
+  security: "Security"
 
 uber::config::job_locations:
-  cat_herding: "Security"
-  food: "Food"
-  misc: "General Support"
-  music: "Concert Pavilion"
+  general: "General Support"
   registration: "Registration"
-  activities: "Events"
+  food: "Food Prep"
+  events: "Events"
+  music: "Music Pavilion"
+  security: "Security"
 
 uber::config::event_locations:
-  concerts: "Concerts"
-  events: "Events"
+  pavilion: "Upper Pavilion"
+  concerts: "Concert Pavilion"
+  hillside: "Hillside"
+  lake: "Lakeside"
+  black: "Somewhere in Black"
+  techstock: "Techstock"
 
 uber::plugin_magstock::noise_levels:
   quiet:   "Away from the main drag"
@@ -132,8 +137,8 @@ uber::plugin_magstock::shirt_colors:
   white_shirt:  "White Shirt (for tie-dyeing later)"
 
 uber::plugin_magstock::site_types:
-  primitive:  "Primitive - NO ELECTRIC OR WATER"
   normal:     "Normal - has electric and water hookups"
+  primitive:  "Primitive - NO ELECTRIC OR WATER"
 
 uber::plugin_magstock::camping_types:
   small_tent:  "Small Tent (small footprint)"
@@ -200,8 +205,8 @@ uber::config::panel_rooms: ","   # empty list
 
 uber::config::hide_schedule: true
 
-uber::config::band_email:           'MAGStock Music Department <music@magstock.org>'
-uber::config::band_email_signature: '- MAGStock Music Department'
+uber::config::band_email:           'MAGStock Music <music@magstock.org>'
+uber::config::band_email_signature: 'MAGStock Music Department'
 
 uber::config::band_panel_deadline:      ''  # disabled for magstock
 uber::config::band_bio_deadline:  '2018-04-20 20'
