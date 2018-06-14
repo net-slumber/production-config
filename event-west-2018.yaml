@@ -35,8 +35,8 @@ uber::config::guest_sig: |
 
 uber::config::stops_sig: |
     Thank You,
-    Staff Operations: MAGWest
-    http://www.magwest.org
+    Staff Operations, West: MAGFest Inc.
+    https://magwest.org
 
 uber::config::use_checkin_barcode: 'True'
 uber::config::badge_promo_codes_enabled: True
