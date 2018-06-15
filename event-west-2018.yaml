@@ -338,7 +338,7 @@ uber::config::dept_head_checklist:
     path: "/hotel/requests?department_id={department_id}"
   hotel_eligible:
     name: "Staffers Requesting Hotel Space"
-    deadline: "2018-07-09"
+    deadline: "2018-07-05"
     description: "Double check that everyone in your department who you know needs hotel space has requested it."
     path: "/hotel/index?department_id={department_id}"
   printed_signs:
